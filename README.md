@@ -3,6 +3,6 @@ The official GitHub repository for Three Bullets: A Shattered World, an alternat
 
 If you want to add a new folder:
   1. Click 'Create new file'
-  2. Put the name of the folder in the name box and then use a /
+  2. Put the name of the folder in the name box and then type a /
   3. Put the name "(do not delete)" in the name box
   4. Scroll down and click 'Commit new file'
