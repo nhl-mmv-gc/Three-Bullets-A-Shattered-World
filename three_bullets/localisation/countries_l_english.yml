@@ -118,8 +118,8 @@
  BOL_conservatism_DEF:0 "the Republic of Bolivia"
  BOL_ADJ:0 "Bolivian"
  
- BRA_fascism:0 "Junta of Brazil"
- BRA_fascism_DEF:0 "the Junta of Brazil"
+ BRA_fascism:0 "Jaguar Republic"
+ BRA_fascism_DEF:0 "Jaguar Republic"
  BRA_ADJ:0 "Brazilian"
  
  CHL_conservatism:0 "Republic of Chile"
@@ -160,16 +160,16 @@
  ASY_conservatism_DEF:0 "the Kingdom of Assyria"
  ASY_ADJ:0 "Assyrian"
  
- BEN_reactionism:0 "State of Bengal"
- BEN_reactionism_DEF:0 "the State of Bengal"
+ BEN_reactionism:0 "United Bengal"
+ BEN_reactionism_DEF:0 "United Bengal"
  BEN_ADJ:0 "Bengal"
  
  BHU_conservatism:0 "Kingdom of Bhutan"
  BHU_conservatism_DEF:0 "the Kingdom of Bhutan"
  BHU_ADJ:0 "Bhutanese"
  
- BUS_conservatism:0 "Kingdom of Busra"
- BUS_conservatism_DEF:0 "the Kingdom of Busra"
+ BUS_conservatism:0 "Emirate of Basra"
+ BUS_conservatism_DEF:0 "the Emirate of Basra"
  BUS_ADJ:0 "Busran"
  
  CAM_conservatism:0 "Kindgom of Cambodia"
@@ -188,9 +188,9 @@
  HEJ_conservatism_DEF:0 "the Kingdom of Hejaz"
  HEJ_ADJ:0 "Hejazi"
  
- IRQ_reactionism:0 "Kingdom of Iraq"
- IRQ_reactionism_DEF:0 "the Kingdom of Iraw"
- IRQ_ADJ:0 "Iraqi"
+ IRQ_reactionism:0 "Emirate of Baghdad"
+ IRQ_reactionism_DEF:0 "the Emirate of Baghdad"
+ IRQ_ADJ:0 "Baghdadi"
  
  JAP_fascism:0 "Empire of Japan"
  JAP_fascism_DEF:0 "the Empire of Japan"
@@ -220,13 +220,13 @@
  MAN_fascism_DEF:0 "the Republic of Manchuria"
  MAN_ADJ:0 "Manchurian"
  
- MON_fascism:0 "Feudal Horde of Mongolia"
- MON_fascism_DEF:0 "the Feudal Horde of Mongolia"
+ MON_fascism:0 "Mongol Khanate"
+ MON_fascism_DEF:0 "Mongol Khanate"
  MON_ADJ:0 "Mongolian"
  
  MYA_reactionism:0 "Kingdom of Myanmar"
  MYA_reactionism_DEF:0 "the Kingdom of Myanmar"
- MYA_ADJ:0 "Myanese"
+ MYA_ADJ:0 "Myanmese"
  
  NEP_conservatism:0 "Kingdom of Nepal"
  NEP_conservatism_DEF:0 "the Kingdom of Nepal"
@@ -236,29 +236,29 @@
  PAL_conservatism_DEF:0 "the Kingdom of Palestine"
  PAL_ADJ:0 "Palestinian"
  
- PER_reactionism:0 "Kindgom of Persia"
- PER_reactionism_DEF:0 "the Kingodm of Persia"
- PER_ADJ:0 "Persian"
+ PER_reactionism:0 "Imperial Iran"
+ PER_reactionism_DEF:0 "Imperial Iran"
+ PER_ADJ:0 "Iranian"
  
- PRI_conservatism:0 "Princely Federation"
- PRI_conservatism_DEF:0 "the Princely Federation"
+ PRI_conservatism:0 "Princely Confederacy"
+ PRI_conservatism_DEF:0 "the Princely Confederacy"
  PRI_ADJ:0 "Princely"
  
- PUN_conservatism:0 "State of Punjab"
- PUN_conservatism_DEF:0 "the State of Punjab"
+ PUN_conservatism:0 "Punjabi Empire"
+ PUN_conservatism_DEF:0 "Punjabi Empire"
  PUN_ADJ:0 "Punjabi"
  
- RAJ_liberalism:0 "Republic of Northern India"
- RAJ_liberalism_DEF:0 "the Republic of Northern India"
- RAJ_ADJ:0 "Indian"
+ RAJ_liberalism:0 "Hindu Dominion"
+ RAJ_liberalism_DEF:0 "Hindu Dominion"
+ RAJ_ADJ:0 "Hindu"
  
  SAU_reactionism:0 "Kingdom of Saudi Arabia"
  SAU_reactionism_DEF:0 "the Kingdom of Saudi Arabia"
  SAU_ADJ:0 "Saudi"
  
- SIA_reactionism:0 "Kingdom of Siam"
- SIA_reactionism_DEF:0 "the Kingdom of Siam"
- SIA_ADJ:0 "Siamese"
+ SIA_reactionism:0 "Rattanakosin Kingdom"
+ SIA_reactionism_DEF:0 "Rattanakosin Kingdom"
+ SIA_ADJ:0 "Thai"
  
  SIK_conservatism:0 "Republic of Turkestan"
  SIK_conservatism_DEF:0 "the Republic of Turkestan"
@@ -276,8 +276,8 @@
  TAJ_conservatism_DEF:0 "the Republic of Tajikistan"
  TAJ_ADJ:0 "Tajik"
  
- TIB_conservatism:0 "Kingdom of Tibet"
- TIB_conservatism_DEF:0 "the Kingdom of Tibet"
+ TIB_conservatism:0 "Great Tibtet"
+ TIB_conservatism_DEF:0 "Great Tibet"
  TIB_ADJ:0 "Tibetan"
  
  TUK_conservatism:0 "Republic of Turkmenistan"
@@ -292,8 +292,8 @@
  UZB_conservatism_DEF:0 "the Republic of Uzbekistan"
  UZB_ADJ:0 "Uzbek"
  
- VIN_conservatism:0 "Kingdom of Vietnam"
- VIN_conservatism_DEF:0 "the Kingdom of Vietnam"
+ VIN_conservatism:0 "Empire of Dai Nam"
+ VIN_conservatism_DEF:0 "Empire of Dai Nam"
  VIN_ADJ:0 "Vietnamese"
  
  YEM_conservatism:0 "Kingdom of Yemen"
@@ -302,12 +302,12 @@
 
  # Europe
 
- ALB_conservatism:0 "Kingdom of Albania"
- ALB_conservatism_DEF:0 "the Kingdom of Albania"
+ ALB_conservatism:0 "Republic of Albania"
+ ALB_conservatism_DEF:0 "Republic of Albania"
  ALB_ADJ:0 "Albanian"
 
- ARM_conservatism:0 "Kingdom of Armenia"
- ARM_conservatism_DEF:0 "the Kingdom of Armenia"
+ ARM_conservatism:0 "United Armenia"
+ ARM_conservatism_DEF:0 "United Armenia"
  ARM_ADJ:0 "Armenian"
  
  AUS_liberalism:0 "Federal Republic of Austria"
@@ -326,9 +326,9 @@
  BUL_reactionism_DEF:0 "the Kingdom of Bulgaria"
  BUL_ADJ:0 "Bulgarian"
  
- CRI_reactionism:0 "Tatar Republic of Crimea"
- CRI_reactionism_DEF:0 "the Tatar Republic of Crimea"
- CRI_ADJ:0 "Crimean"
+ CRI_reactionism:0 "Tatar Republic"
+ CRI_reactionism_DEF:0 "the Tatar Republic"
+ CRI_ADJ:0 "Tatar"
  
  CRO_conservatism:0 "Kingdom of Croatia-Slovenia"
  CRO_conservatism_DEF:0 "the Kingdom of Croatia-Slovenia"
@@ -374,7 +374,7 @@
  HRS_reactionism_DEF:0 "the Holy Russian State"
  HRS_ADJ:0 "Holy Russian"
  
- HUN_fascism:0 "National Republic of Hungary"
+ HUN_fascism:0 "National Union of Hungary"
  HUN_fascism_DEF:0 "the National Republic of Hungary"
  HUN_ADJ:0 "Hungarian"
  
@@ -390,8 +390,8 @@
  NOR_socialism_DEF:0 "the Kingdom of Norway"
  NOR_ADJ:0 "Norwegian"
  
- POL_fascism:0 "Polish-Lithuanian Commonwealth"
- POL_fascism_DEF:0 "the Polish-Lithuanian Commonwealth"
+ POL_fascism:0 "Great Commonwealth"
+ POL_fascism_DEF:0 "the Great Commonwealth"
  POL_ADJ:0 "Polish-Lithuanian"
  
  POR_reactionism:0 "Republic of Portugal"
@@ -402,8 +402,8 @@
  ROM_conservatism_DEF:0 "the Kingdom of Romania"
  ROM_ADJ:0 "Romanian"
  
- RUS_reactionism:0 "Imperial Russian State"
- RUS_reactionism_DEF:0 "the Imperial Russia State"
+ RUS_reactionism:0 "Russian Empire"
+ RUS_reactionism_DEF:0 "the Russian Empire"
  RUS_ADJ:0 "Imperial Russian"
  
  SER_conservatism:0 "Kingdom of Serbia"
