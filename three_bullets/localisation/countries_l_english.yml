@@ -2,8 +2,8 @@
 
  # Africa
 
- ALG_socialism:0 "Republic of Algeria"
- ALG_socialism_DEF:0 "the Republic of Algeria"
+ ALG_socialism:0 "Socialist Republic of Algeria"
+ ALG_socialism_DEF:0 "the Socialist Republic of Algeria"
  ALG_DEF:0 "Algerian"
  
  ANG_reactionism:0 "State of Angola"
@@ -38,8 +38,8 @@
  MAD_reactionism_DEF:0 "the Kingdom of Madagascar"
  MAD_ADJ:0 "Malagasy"
  
- MOR_socialism:0 "Republic of Morocco"
- MOR_socialism_DEF:0 "the Republic of Morocco"
+ MOR_socialism:0 "Socialist Republic of Morocco"
+ MOR_socialism_DEF:0 "the Socialist Republic of Morocco"
  MOR_ADJ:0 "Moroccan"
  
  NAM_conservatism:0 "State of Namibia"
@@ -54,8 +54,8 @@
  SOM_conservatism_DEF:0 "the State of Somalia"
  SOM_ADJ:0 "Somalian"
  
- TUN_socialism:0 "Republic of Tunisia"
- TUN_socialism_DEF:0 "the Republic of Tunisia"
+ TUN_socialism:0 "Socialist Republic of Tunisia"
+ TUN_socialism_DEF:0 "the Socialist Republic of Tunisia"
  TUN_ADJ:0 "Tunisian"
  
  TZN_conservatism:0 "State of Tanzania"
@@ -276,7 +276,7 @@
  TAJ_conservatism_DEF:0 "the Republic of Tajikistan"
  TAJ_ADJ:0 "Tajik"
  
- TIB_conservatism:0 "Great Tibtet"
+ TIB_conservatism:0 "Great Tibet"
  TIB_conservatism_DEF:0 "Great Tibet"
  TIB_ADJ:0 "Tibetan"
  
@@ -322,8 +322,8 @@
  BLR_conservatism_DEF:0 "the Republic of Belarus"
  BLR_ADJ:0 "Belarusian"
  
- BUL_reactionism:0 "Kingdom of Bulgaria"
- BUL_reactionism_DEF:0 "the Kingdom of Bulgaria"
+ BUL_reactionism:0 "Tsardom of Bulgaria"
+ BUL_reactionism_DEF:0 "the Tsardom of Bulgaria"
  BUL_ADJ:0 "Bulgarian"
  
  CRI_reactionism:0 "Tatar Republic"
