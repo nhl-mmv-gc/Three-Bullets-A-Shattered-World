@@ -39,7 +39,7 @@
  CAN_liberalism_party:0 "Liberal Party of Canada"
  CAN_conservatism_party:0 "Liberal-Conservative Party of Canada"
  CAN_reactionism_party:0 "Reconstruction Party of Canada"
- CAN_fascism_party:0 "National Front of Canada"
+ CAN_fascism_party:0 "National Union of Canada"
  
  ENG_communism_party:0 "Communist Party of Great Britain"
  ENG_socialism_party:0 "Labour Party"
@@ -53,7 +53,7 @@
  FRA_liberalism_party:0 "Radical Party"
  FRA_conservatism_party:0 "Democratic Alliance"
  FRA_reactionism_party:0 "Republican Federation"
- FRA_fascism_party:0 "French National Unity"
+ FRA_fascism_party:0 "French Action"
  
  ITA_communism_party:0 "Italian Socialist Party" # Was more popular than the Communist Party of Italy at the time
  ITA_socialism_party:0 "Unitary Socialist Party"
