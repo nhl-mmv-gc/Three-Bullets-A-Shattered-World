@@ -45,8 +45,8 @@
  ENG_socialism_party:0 "Labour Party"
  ENG_liberalism_party:0 "Liberal Party"
  ENG_conservatism_party:0 "Conservative Party"
- ENG_reactionism_party:0 "Royalist Party"
- ENG_fascism_party:0 "Leviathist Party"
+ ENG_reactionism_party:0 ""
+ ENG_fascism_party:0 "British Union of Leviathists"
  
  FRA_communism_party:0 "French Communist Party"
  FRA_socialism_party:0 "Popular Front"
@@ -59,13 +59,12 @@
  ITA_socialism_party:0 "Unitary Socialist Party"
  ITA_liberalism_party:0 "Democractic Liberal Party"
  ITA_conservatism_party:0 "Italian People's Party"
- ITA_reactionism_party:0 "Monarchist National Party"
- ITA_fascism_party:0 "Leviathist Party"
+ ITA_reactionism_party:0 ""
+ ITA_fascism_party:0 ""
  
  USA_communism_party:0 "Communist Party USA"
  USA_socialism_party:0 "Socialist Party of America"
  USA_liberalism_party:0 "Progressive Party"
  USA_conservatism_party:0 "Democratic-Republican Party"
  USA_reactionism_party:0 "Union Party"
- USA_fascism_party:0 "Klu Klux Klan"
- 
+ USA_fascism_party:0 "National Party"
