@@ -342,12 +342,12 @@
  DEN_socialism_DEF:0 "the Kingdom of Denmark"
  DEN_ADJ:0 "Danish"
  
- ENG_fascism:0 "United Kingdom"
- ENG_fascism_DEF:0 "the United Kingdom"
+ ENG_fascism:0 "Greater Britain"
+ ENG_fascism_DEF:0 "the Greater"
  ENG_ADJ:0 "British"
  
- FIN_conservatism:0 "Republic of Finland"
- FIN_conservatism_DEF:0 "the Republic of Finland"
+ FIN_conservatism:0 "Kingdom of Finland"
+ FIN_conservatism_DEF:0 "the Kingdom of Finland"
  FIN_ADJ:0 "Finnish"
  
  FRA_communism:0 "Commune of France"
@@ -362,8 +362,8 @@
  GRE_conservatism_DEF:0 "the Kingdom of Greece"
  GRE_ADJ:0 "Greek"
  
- HET_conservatism:0 "Republic of Latvia-Estonia"
- HET_conservatism_DEF:0 "the Republic of Latvia-Estonia"
+ HET_conservatism:0 "Duchy of Latvia-Estonia"
+ HET_conservatism_DEF:0 "the Duchy of Latvia-Estonia"
  HET_ADJ:0 "Latvian-Estonian"
  
  HOL_conservatism:0 "Kingdom of the Netherlands"
@@ -375,7 +375,7 @@
  HRS_ADJ:0 "Holy Russian"
  
  HUN_fascism:0 "National Union of Hungary"
- HUN_fascism_DEF:0 "the National Republic of Hungary"
+ HUN_fascism_DEF:0 "the National Union of Hungary"
  HUN_ADJ:0 "Hungarian"
  
  ICE_conservatism:0 "Kingdom of Iceland"
@@ -410,8 +410,8 @@
  SER_conservatism_DEF:0 "the Kingdom of Serbia"
  SER_ADJ:0 "Serbian"
  
- SLO_conservatism:0 "State of Slovakia"
- SLO_conservatism_DEF:0 "the State of Slovakia"
+ SLO_conservatism:0 "Slovak Republic"
+ SLO_conservatism_DEF:0 "the Slovak Republic"
  SLO_ADJ:0 "Slovak"
  
  SLV_conservatism:0 "Kingdom of Slovenia"
