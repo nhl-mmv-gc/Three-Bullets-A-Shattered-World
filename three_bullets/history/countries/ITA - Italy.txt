@@ -195,6 +195,8 @@ add_to_faction = LEB
 add_to_faction = PAL
 add_to_faction = YEM
 add_to_faction = LBA
+add_to_faction = SOM
+add_to_faction = HEJ
 
 give_guarantee = SLV
 give_guarantee = CRO
