@@ -50,10 +50,10 @@
  SAF_conservatism_DEF:0 "the Republic of South Africa"
  SAF_ADJ:0 "South African"
  
- SOM_conservatism:0 "State of Somalia"
- SOM_conservatism_DEF:0 "the State of Somalia"
- SOM_ADJ:0 "Somalian"
- 
+ IEA_conservatism:0 "Italian East Africa"
+ IEA_conservatism_DEF:0 "the Italian East African regime"
+ IEA_ADJ:0 "Italo East African"
+
  TUN_socialism:0 "Socialist Republic of Tunisia"
  TUN_socialism_DEF:0 "the Socialist Republic of Tunisia"
  TUN_ADJ:0 "Tunisian"
