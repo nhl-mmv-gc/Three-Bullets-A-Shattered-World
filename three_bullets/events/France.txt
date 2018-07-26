@@ -1,0 +1,1922 @@
+﻿add_namespace = france
+
+country_event = {
+	id = france.1
+	title = france.1.t
+	desc = france.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "What are the plans?"
+		trigger = {
+			AND = {
+				NOT = { has_country_flag = intel_150 }
+				NOT = { has_country_flag = intel_155 }
+				NOT = { has_country_flag = intel_160 }
+				NOT = { has_country_flag = intel_165 }
+				NOT = { has_country_flag = intel_170 }
+				NOT = { has_country_flag = intel_175 }
+				NOT = { has_country_flag = intel_180 }
+				NOT = { has_country_flag = intel_185 }
+				NOT = { has_country_flag = intel_190 }
+				NOT = { has_country_flag = intel_195 }
+				NOT = { has_country_flag = intel_200 }
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = intel_0 }
+					NOT = { has_country_flag = intel_5 }
+					NOT = { has_country_flag = intel_10 }
+					NOT = { has_country_flag = intel_15 }
+					NOT = { has_country_flag = intel_20 }
+					NOT = { has_country_flag = intel_25 }
+					NOT = { has_country_flag = intel_30 }
+					NOT = { has_country_flag = intel_35 }
+					NOT = { has_country_flag = intel_40 }
+					NOT = { has_country_flag = intel_45 }
+					NOT = { has_country_flag = intel_50 }
+					NOT = { has_country_flag = intel_55 }
+					NOT = { has_country_flag = intel_60 }
+					NOT = { has_country_flag = intel_65 }
+					NOT = { has_country_flag = intel_70 }
+					NOT = { has_country_flag = intel_75 }
+					NOT = { has_country_flag = intel_80 }
+					NOT = { has_country_flag = intel_90 }
+					NOT = { has_country_flag = intel_95 }
+					NOT = { has_country_flag = intel_100 }
+					NOT = { has_country_flag = intel_105 }
+					NOT = { has_country_flag = intel_110 }
+					NOT = { has_country_flag = intel_115 }
+					NOT = { has_country_flag = intel_120 }
+					NOT = { has_country_flag = intel_125 }
+					NOT = { has_country_flag = intel_130 }
+					NOT = { has_country_flag = intel_135 }
+					NOT = { has_country_flag = intel_140 }
+					NOT = { has_country_flag = intel_145 }
+				}
+			}
+			set_country_flag = intel_0
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "I'm not interested in hearing any of the plans."
+		set_country_flag = intel_0
+	}
+}
+
+country_event = {
+	id = france.2
+	title = france.2.t
+	desc = france.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Plans for Fraternité."
+		trigger = {
+			OR = {
+				NOT = { has_country_flag = plan_ENG }
+				NOT = { has_country_flag = plan_BAL }
+				NOT = { has_country_flag = plan_RUS }
+				NOT = { has_country_flag = plan_LIB }
+			}
+		}
+		country_event = { id = france.3 }
+	}
+	
+	option = {
+		name = "Plans for Égalité."
+		trigger = {
+			OR = {
+				NOT = { has_country_flag = plan_EGY }
+				NOT = { has_country_flag = plan_CAN }
+				NOT = { has_country_flag = plan_ROM }
+				NOT = { has_country_flag = plan_SPR }
+			}
+		}
+		country_event = { id = france.4 }
+	}
+	
+	option = {
+		name = "Plans for Liberté."
+		trigger = {
+			OR = {
+				NOT = { has_country_flag = plan_GER }
+				NOT = { has_country_flag = plan_ITA }
+				NOT = { has_country_flag = plan_SWI }
+				NOT = { has_country_flag = plan_BEL }
+			}
+		}
+		country_event = { id = france.5 }
+	}
+	
+	option = {
+		name = "I've seen enough of the plans."
+	}
+}
+
+country_event = {
+	id = france.3
+	title = france.3.t
+	desc = france.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Give me details on the British plan."
+		trigger = { NOT = { has_country_flag = plan_ENG } }
+		country_event = { id = france.6 }
+	}
+	
+	option = {
+		name = "Give me details on the Balkan plan."
+		trigger = { NOT = { has_country_flag = plan_BAL } }
+		country_event = { id = france.7 }
+	}
+	
+	option = {
+		name = "Give me details on the Russian plan."
+		trigger = { NOT = { has_country_flag = plan_RUS } }
+		country_event = { id = france.8 }
+	}
+	
+	option = {
+		name = "Give me details on the Liberian plan."
+		trigger = { NOT = { has_country_flag = plan_LIB } }
+		country_event = { id = france.9 }
+	}
+}
+
+country_event = {
+	id = france.4
+	title = france.4.t
+	desc = france.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Give me details on the Egyptian plan."
+		trigger = { NOT = { has_country_flag = plan_EGY } }
+		country_event = { id = france.10 }
+	}
+	
+	option = {
+		name = "Give me details on the Canadian plan."
+		trigger = { NOT = { has_country_flag = plan_CAN } }
+		country_event = { id = france.11 }
+	}
+	
+	option = {
+		name = "Give me details on the Romanian plan."
+		trigger = { NOT = { has_country_flag = plan_ROM } }
+		country_event = { id = france.12 }
+	}
+	
+	option = {
+		name = "Give me details on the Spanish plan."
+		trigger = { NOT = { has_country_flag = plan_SPR } }
+		country_event = { id = france.13 }
+	}
+}
+
+country_event = {
+	id = france.5
+	title = france.5.t
+	desc = france.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Give me details on the German plan."
+		trigger = { NOT = { has_country_flag = plan_GER } }
+		country_event = { id = france.14 }
+	}
+	
+	option = {
+		name = "Give me details on the Italian plan."
+		trigger = { NOT = { has_country_flag = plan_ITA } }
+		country_event = { id = france.15 }
+	}
+	
+	option = {
+		name = "Give me details on the Swiss plan."
+		trigger = { NOT = { has_country_flag = plan_SWI } }
+		country_event = { id = france.16 }
+	}
+	
+	option = {
+		name = "Give me deails on the Belgian plan."
+		trigger = { NOT = { has_country_flag = plan_BEL } }
+		country_event = { id = france.17 }
+	}
+}
+
+country_event = { # British Plan
+	id = france.6
+	title = france.6.t
+	desc = france.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_ENG
+		hidden_effect = {
+			country_event = { id = france.23 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # Balkan Plan
+	id = france.7
+	title = france.7.t
+	desc = france.7.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_BAL
+		hidden_effect = {
+			country_event = { id = france.22 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # Russian Plan
+	id = france.8
+	title = france.8.t
+	desc = france.8.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_RUS
+		hidden_effect = {
+			country_event = { id = france.21 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # Liberian Plan
+	id = france.9
+	title = france.9.t
+	desc = france.9.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_LIB
+		hidden_effect = {
+			country_event = { id = france.20 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # Egyptian Plan
+	id = france.10
+	title = france.10.t
+	desc = france.10.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_EGY
+		hidden_effect = {
+			country_event = { id = france.22 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # Canadian Plan
+	id = france.11
+	title = france.11.t
+	desc = france.11.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_CAN
+		hidden_effect = {
+			country_event = { id = france.21 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # Romanian Plan
+	id = france.12
+	title = france.12.t
+	desc = france.12.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_ROM
+		hidden_effect = {
+			country_event = { id = france.20 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # Spanish Plan
+	id = france.13
+	title = france.13.t
+	desc = france.13.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_SPR
+		hidden_effect = {
+			country_event = { id = france.19 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # German Plan
+	id = france.14
+	title = france.14.t
+	desc = france.14.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_GER
+		hidden_effect = {
+			country_event = { id = france.21 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # Italian Plan
+	id = france.15
+	title = france.15.t
+	desc = france.15.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_ITA
+		hidden_effect = {
+			country_event = { id = france.20 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # Swiss Plan
+	id = france.16
+	title = france.16.t
+	desc = france.16.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_SWI
+		hidden_effect = {
+			country_event = { id = france.19 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # Belgian Plan
+	id = france.17
+	title = france.17.t
+	desc = france.17.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We shall put this plan into effect."
+		set_country_flag = plan_BEL
+		hidden_effect = {
+			country_event = { id = france.18 }
+		}
+		country_event = { id = france.2 }
+	}
+	
+	option = {
+		name = "What are the other plans?"
+		country_event = { id = france.2 }
+	}
+}
+
+country_event = { # Add 15 intel points
+	id = france.18
+	title = france.18.t
+	desc = france.18.d
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_flag = intel_145
+			}
+			clr_country_flag = intel_145
+			set_country_flag = intel_160
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_140
+			}
+			clr_country_flag = intel_140
+			set_country_flag = intel_155
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_135
+			}
+			clr_country_flag = intel_135
+			set_country_flag = intel_150
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_130
+			}
+			clr_country_flag = intel_130
+			set_country_flag = intel_145
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_125
+			}
+			clr_country_flag = intel_125
+			set_country_flag = intel_140
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_125
+			}
+			clr_country_flag = intel_125
+			set_country_flag = intel_140
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_125
+			}
+			clr_country_flag = intel_125
+			set_country_flag = intel_140
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_120
+			}
+			clr_country_flag = intel_120
+			set_country_flag = intel_135
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_115
+			}
+			clr_country_flag = intel_115
+			set_country_flag = intel_130
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_110
+			}
+			clr_country_flag = intel_110
+			set_country_flag = intel_125
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_105
+			}
+			clr_country_flag = intel_105
+			set_country_flag = intel_120
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_100
+			}
+			clr_country_flag = intel_100
+			set_country_flag = intel_115
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_95
+			}
+			clr_country_flag = intel_95
+			set_country_flag = intel_110
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_90
+			}
+			clr_country_flag = intel_90
+			set_country_flag = intel_105
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_85
+			}
+			clr_country_flag = intel_85
+			set_country_flag = intel_100
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_80
+			}
+			clr_country_flag = intel_80
+			set_country_flag = intel_95
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_75
+			}
+			clr_country_flag = intel_75
+			set_country_flag = intel_90
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_70
+			}
+			clr_country_flag = intel_70
+			set_country_flag = intel_85
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_65
+			}
+			clr_country_flag = intel_65
+			set_country_flag = intel_80
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_60
+			}
+			clr_country_flag = intel_60
+			set_country_flag = intel_75
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_55
+			}
+			clr_country_flag = intel_55
+			set_country_flag = intel_70
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_50
+			}
+			clr_country_flag = intel_50
+			set_country_flag = intel_65
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_45
+			}
+			clr_country_flag = intel_45
+			set_country_flag = intel_60
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_40
+			}
+			clr_country_flag = intel_40
+			set_country_flag = intel_55
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_35
+			}
+			clr_country_flag = intel_35
+			set_country_flag = intel_50
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_30
+			}
+			clr_country_flag = intel_30
+			set_country_flag = intel_45
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_25
+			}
+			clr_country_flag = intel_25
+			set_country_flag = intel_40
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_20
+			}
+			clr_country_flag = intel_20
+			set_country_flag = intel_35
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_15
+			}
+			clr_country_flag = intel_15
+			set_country_flag = intel_30
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_10
+			}
+			clr_country_flag = intel_10
+			set_country_flag = intel_25
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_5
+			}
+			clr_country_flag = intel_5
+			set_country_flag = intel_20
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_0
+			}
+			clr_country_flag = intel_0
+			set_country_flag = intel_15
+		}
+	}
+}
+
+country_event = { # Add 20 intel points
+	id = france.19
+	title = france.19.t
+	desc = france.19.d
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_flag = intel_145
+			}
+			clr_country_flag = intel_145
+			set_country_flag = intel_165
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_140
+			}
+			clr_country_flag = intel_140
+			set_country_flag = intel_160
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_135
+			}
+			clr_country_flag = intel_135
+			set_country_flag = intel_155
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_130
+			}
+			clr_country_flag = intel_130
+			set_country_flag = intel_150
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_125
+			}
+			clr_country_flag = intel_125
+			set_country_flag = intel_145
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_120
+			}
+			clr_country_flag = intel_120
+			set_country_flag = intel_140
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_115
+			}
+			clr_country_flag = intel_115
+			set_country_flag = intel_135
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_110
+			}
+			clr_country_flag = intel_110
+			set_country_flag = intel_130
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_105
+			}
+			clr_country_flag = intel_105
+			set_country_flag = intel_125
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_100
+			}
+			clr_country_flag = intel_100
+			set_country_flag = intel_120
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_95
+			}
+			clr_country_flag = intel_95
+			set_country_flag = intel_115
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_90
+			}
+			clr_country_flag = intel_90
+			set_country_flag = intel_110
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_85
+			}
+			clr_country_flag = intel_85
+			set_country_flag = intel_105
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_80
+			}
+			clr_country_flag = intel_80
+			set_country_flag = intel_100
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_75
+			}
+			clr_country_flag = intel_75
+			set_country_flag = intel_95
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_70
+			}
+			clr_country_flag = intel_70
+			set_country_flag = intel_90
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_65
+			}
+			clr_country_flag = intel_65
+			set_country_flag = intel_85
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_60
+			}
+			clr_country_flag = intel_60
+			set_country_flag = intel_80
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_55
+			}
+			clr_country_flag = intel_55
+			set_country_flag = intel_75
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_50
+			}
+			clr_country_flag = intel_50
+			set_country_flag = intel_70
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_45
+			}
+			clr_country_flag = intel_45
+			set_country_flag = intel_65
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_40
+			}
+			clr_country_flag = intel_40
+			set_country_flag = intel_60
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_35
+			}
+			clr_country_flag = intel_35
+			set_country_flag = intel_55
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_30
+			}
+			clr_country_flag = intel_30
+			set_country_flag = intel_50
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_25
+			}
+			clr_country_flag = intel_25
+			set_country_flag = intel_45
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_20
+			}
+			clr_country_flag = intel_20
+			set_country_flag = intel_40
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_15
+			}
+			clr_country_flag = intel_15
+			set_country_flag = intel_35
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_10
+			}
+			clr_country_flag = intel_10
+			set_country_flag = intel_30
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_5
+			}
+			clr_country_flag = intel_5
+			set_country_flag = intel_25
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_0
+			}
+			clr_country_flag = intel_0
+			set_country_flag = intel_20
+		}
+	}
+}
+
+country_event = { # Add 25 intel points
+	id = france.20
+	title = france.20.t
+	desc = france.20.d
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_flag = intel_145
+			}
+			clr_country_flag = intel_145
+			set_country_flag = intel_170
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_140
+			}
+			clr_country_flag = intel_140
+			set_country_flag = intel_165
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_135
+			}
+			clr_country_flag = intel_135
+			set_country_flag = intel_160
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_130
+			}
+			clr_country_flag = intel_130
+			set_country_flag = intel_155
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_125
+			}
+			clr_country_flag = intel_125
+			set_country_flag = intel_150
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_120
+			}
+			clr_country_flag = intel_120
+			set_country_flag = intel_145
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_115
+			}
+			clr_country_flag = intel_115
+			set_country_flag = intel_140
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_110
+			}
+			clr_country_flag = intel_110
+			set_country_flag = intel_135
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_105
+			}
+			clr_country_flag = intel_105
+			set_country_flag = intel_130
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_100
+			}
+			clr_country_flag = intel_100
+			set_country_flag = intel_125
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_95
+			}
+			clr_country_flag = intel_95
+			set_country_flag = intel_120
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_90
+			}
+			clr_country_flag = intel_90
+			set_country_flag = intel_115
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_85
+			}
+			clr_country_flag = intel_85
+			set_country_flag = intel_110
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_80
+			}
+			clr_country_flag = intel_80
+			set_country_flag = intel_105
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_75
+			}
+			clr_country_flag = intel_75
+			set_country_flag = intel_100
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_70
+			}
+			clr_country_flag = intel_70
+			set_country_flag = intel_95
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_65
+			}
+			clr_country_flag = intel_65
+			set_country_flag = intel_90
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_60
+			}
+			clr_country_flag = intel_60
+			set_country_flag = intel_85
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_55
+			}
+			clr_country_flag = intel_55
+			set_country_flag = intel_80
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_50
+			}
+			clr_country_flag = intel_50
+			set_country_flag = intel_75
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_45
+			}
+			clr_country_flag = intel_45
+			set_country_flag = intel_70
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_40
+			}
+			clr_country_flag = intel_40
+			set_country_flag = intel_65
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_35
+			}
+			clr_country_flag = intel_35
+			set_country_flag = intel_60
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_30
+			}
+			clr_country_flag = intel_30
+			set_country_flag = intel_55
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_25
+			}
+			clr_country_flag = intel_25
+			set_country_flag = intel_50
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_20
+			}
+			clr_country_flag = intel_20
+			set_country_flag = intel_45
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_15
+			}
+			clr_country_flag = intel_15
+			set_country_flag = intel_40
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_10
+			}
+			clr_country_flag = intel_10
+			set_country_flag = intel_35
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_5
+			}
+			clr_country_flag = intel_5
+			set_country_flag = intel_30
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_0
+			}
+			clr_country_flag = intel_0
+			set_country_flag = intel_25
+		}
+	}
+}
+
+country_event = { # Add 30 intel points
+	id = france.21
+	title = france.21.t
+	desc = france.21.d
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_flag = intel_145
+			}
+			clr_country_flag = intel_145
+			set_country_flag = intel_175
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_140
+			}
+			clr_country_flag = intel_140
+			set_country_flag = intel_170
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_135
+			}
+			clr_country_flag = intel_135
+			set_country_flag = intel_165
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_130
+			}
+			clr_country_flag = intel_130
+			set_country_flag = intel_160
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_125
+			}
+			clr_country_flag = intel_125
+			set_country_flag = intel_155
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_120
+			}
+			clr_country_flag = intel_120
+			set_country_flag = intel_150
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_115
+			}
+			clr_country_flag = intel_115
+			set_country_flag = intel_145
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_110
+			}
+			clr_country_flag = intel_110
+			set_country_flag = intel_140
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_105
+			}
+			clr_country_flag = intel_105
+			set_country_flag = intel_135
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_100
+			}
+			clr_country_flag = intel_100
+			set_country_flag = intel_130
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_95
+			}
+			clr_country_flag = intel_95
+			set_country_flag = intel_125
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_90
+			}
+			clr_country_flag = intel_90
+			set_country_flag = intel_120
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_85
+			}
+			clr_country_flag = intel_85
+			set_country_flag = intel_115
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_80
+			}
+			clr_country_flag = intel_80
+			set_country_flag = intel_110
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_75
+			}
+			clr_country_flag = intel_75
+			set_country_flag = intel_105
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_70
+			}
+			clr_country_flag = intel_70
+			set_country_flag = intel_100
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_65
+			}
+			clr_country_flag = intel_65
+			set_country_flag = intel_95
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_60
+			}
+			clr_country_flag = intel_60
+			set_country_flag = intel_90
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_55
+			}
+			clr_country_flag = intel_55
+			set_country_flag = intel_85
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_50
+			}
+			clr_country_flag = intel_50
+			set_country_flag = intel_80
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_45
+			}
+			clr_country_flag = intel_45
+			set_country_flag = intel_75
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_40
+			}
+			clr_country_flag = intel_40
+			set_country_flag = intel_70
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_35
+			}
+			clr_country_flag = intel_35
+			set_country_flag = intel_65
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_30
+			}
+			clr_country_flag = intel_30
+			set_country_flag = intel_60
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_25
+			}
+			clr_country_flag = intel_25
+			set_country_flag = intel_55
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_20
+			}
+			clr_country_flag = intel_20
+			set_country_flag = intel_50
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_15
+			}
+			clr_country_flag = intel_15
+			set_country_flag = intel_45
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_10
+			}
+			clr_country_flag = intel_10
+			set_country_flag = intel_40
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_5
+			}
+			clr_country_flag = intel_5
+			set_country_flag = intel_35
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_0
+			}
+			clr_country_flag = intel_0
+			set_country_flag = intel_30
+		}
+	}
+}
+
+country_event = { # Add 35 intel points
+	id = france.22
+	title = france.22.t
+	desc = france.22.d
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_flag = intel_145
+			}
+			clr_country_flag = intel_145
+			set_country_flag = intel_180
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_140
+			}
+			clr_country_flag = intel_140
+			set_country_flag = intel_175
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_135
+			}
+			clr_country_flag = intel_135
+			set_country_flag = intel_170
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_130
+			}
+			clr_country_flag = intel_130
+			set_country_flag = intel_165
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_125
+			}
+			clr_country_flag = intel_125
+			set_country_flag = intel_160
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_120
+			}
+			clr_country_flag = intel_120
+			set_country_flag = intel_155
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_115
+			}
+			clr_country_flag = intel_115
+			set_country_flag = intel_150
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_110
+			}
+			clr_country_flag = intel_110
+			set_country_flag = intel_145
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_105
+			}
+			clr_country_flag = intel_105
+			set_country_flag = intel_140
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_100
+			}
+			clr_country_flag = intel_100
+			set_country_flag = intel_135
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_95
+			}
+			clr_country_flag = intel_95
+			set_country_flag = intel_130
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_90
+			}
+			clr_country_flag = intel_90
+			set_country_flag = intel_125
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_85
+			}
+			clr_country_flag = intel_85
+			set_country_flag = intel_120
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_80
+			}
+			clr_country_flag = intel_80
+			set_country_flag = intel_115
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_75
+			}
+			clr_country_flag = intel_75
+			set_country_flag = intel_110
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_70
+			}
+			clr_country_flag = intel_70
+			set_country_flag = intel_105
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_65
+			}
+			clr_country_flag = intel_65
+			set_country_flag = intel_100
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_60
+			}
+			clr_country_flag = intel_60
+			set_country_flag = intel_95
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_55
+			}
+			clr_country_flag = intel_55
+			set_country_flag = intel_90
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_50
+			}
+			clr_country_flag = intel_50
+			set_country_flag = intel_85
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_45
+			}
+			clr_country_flag = intel_45
+			set_country_flag = intel_80
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_40
+			}
+			clr_country_flag = intel_40
+			set_country_flag = intel_75
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_35
+			}
+			clr_country_flag = intel_35
+			set_country_flag = intel_70
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_30
+			}
+			clr_country_flag = intel_30
+			set_country_flag = intel_65
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_25
+			}
+			clr_country_flag = intel_25
+			set_country_flag = intel_60
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_20
+			}
+			clr_country_flag = intel_20
+			set_country_flag = intel_55
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_15
+			}
+			clr_country_flag = intel_15
+			set_country_flag = intel_50
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_10
+			}
+			clr_country_flag = intel_10
+			set_country_flag = intel_45
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_5
+			}
+			clr_country_flag = intel_5
+			set_country_flag = intel_40
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_0
+			}
+			clr_country_flag = intel_0
+			set_country_flag = intel_35
+		}
+	}
+}
+
+country_event = { # Add 40 intel points
+	id = france.23
+	title = france.23.t
+	desc = france.23.d
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				has_country_flag = intel_145
+			}
+			clr_country_flag = intel_145
+			set_country_flag = intel_185
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_140
+			}
+			clr_country_flag = intel_140
+			set_country_flag = intel_180
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_135
+			}
+			clr_country_flag = intel_135
+			set_country_flag = intel_175
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_130
+			}
+			clr_country_flag = intel_130
+			set_country_flag = intel_170
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_125
+			}
+			clr_country_flag = intel_125
+			set_country_flag = intel_165
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_120
+			}
+			clr_country_flag = intel_120
+			set_country_flag = intel_160
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_115
+			}
+			clr_country_flag = intel_115
+			set_country_flag = intel_155
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_110
+			}
+			clr_country_flag = intel_110
+			set_country_flag = intel_150
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_105
+			}
+			clr_country_flag = intel_105
+			set_country_flag = intel_145
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_100
+			}
+			clr_country_flag = intel_100
+			set_country_flag = intel_140
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_95
+			}
+			clr_country_flag = intel_95
+			set_country_flag = intel_135
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_90
+			}
+			clr_country_flag = intel_90
+			set_country_flag = intel_130
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_85
+			}
+			clr_country_flag = intel_85
+			set_country_flag = intel_125
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_80
+			}
+			clr_country_flag = intel_80
+			set_country_flag = intel_120
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_75
+			}
+			clr_country_flag = intel_75
+			set_country_flag = intel_115
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_70
+			}
+			clr_country_flag = intel_70
+			set_country_flag = intel_110
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_65
+			}
+			clr_country_flag = intel_65
+			set_country_flag = intel_105
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_60
+			}
+			clr_country_flag = intel_60
+			set_country_flag = intel_100
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_55
+			}
+			clr_country_flag = intel_55
+			set_country_flag = intel_95
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_50
+			}
+			clr_country_flag = intel_50
+			set_country_flag = intel_90
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_45
+			}
+			clr_country_flag = intel_45
+			set_country_flag = intel_85
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_40
+			}
+			clr_country_flag = intel_40
+			set_country_flag = intel_80
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_35
+			}
+			clr_country_flag = intel_35
+			set_country_flag = intel_75
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_30
+			}
+			clr_country_flag = intel_30
+			set_country_flag = intel_70
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_25
+			}
+			clr_country_flag = intel_25
+			set_country_flag = intel_65
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_20
+			}
+			clr_country_flag = intel_20
+			set_country_flag = intel_60
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_15
+			}
+			clr_country_flag = intel_15
+			set_country_flag = intel_55
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_10
+			}
+			clr_country_flag = intel_10
+			set_country_flag = intel_50
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_5
+			}
+			clr_country_flag = intel_5
+			set_country_flag = intel_45
+		}
+		if = {
+			limit = {
+				has_country_flag = intel_0
+			}
+			clr_country_flag = intel_0
+			set_country_flag = intel_40
+		}
+	}
+}
+
+country_event = {
+	id = france.24
+	title = france.24.t
+	desc = france.24.d
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		name = "Moving on..."
+		if = {
+			limit = { is_ai = no }
+			country_event = { id = france.1 }
+		}
+		if = {
+			limit = { is_ai = yes }
+			country_event = { id = france.25 }
+		}
+	}
+}
+
+country_event = {
+	id = france.25
+	title = france.25.t
+	desc = france.25.d
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	immediate = {
+		random_list = {
+			50 = { # Napoleon relived
+				set_country_flag = plan_GER #30
+				set_country_flag = plan_ITA #25
+				set_country_flag = plan_SPR #20
+				set_country_flag = plan_BEL #15
+				set_country_flag = intel_90
+			}
+			25 = { # Surround the Italians
+				set_country_flag = plan_BAL #35
+				set_country_flag = plan_ROM #25
+				set_country_flag = plan_SPR #20
+				set_country_flag = plan_BEL #15
+				set_country_flag = intel_95
+			}
+			10 = { # Befriend the Slavs
+				set_country_flag = plan_BAL #35
+				set_country_flag = plan_RUS #30
+				set_country_flag = plan_ITA #25
+				set_country_flag = intel_90
+			}
+			5 = { # A Communist Empire...
+				set_country_flag = plan_CAN #30
+				set_country_flag = plan_ITA #25
+				set_country_flag = plan_SPR #20
+				set_country_flag = plan_SWI #20
+				set_country_flag = plan_BEL #15
+				set_country_flag = intel_110
+			}
+			4 = { # Full Domestic Focus
+				set_country_flag = intel_0
+			}
+			3 = { # Light Domestic Focus
+				set_country_flag = plan_ITA #25
+				set_country_flag = plan_BEL #15
+				set_country_flag = intel_40
+			}
+			2 = { # Full Steam Ahead!
+				set_country_flag = plan_ENG #40
+				set_country_flag = plan_CAN #30
+				set_country_flag = plan_ITA #25
+				set_country_flag = plan_SPR #20
+				set_country_flag = plan_SWI #20
+				set_country_flag = plan_BEL #15
+				set_country_flag = intel_150
+			}
+			1 = { # Mediterranean Dominance
+				set_country_flag = plan_EGY #35
+				set_country_flag = plan_BAL #35
+				set_country_flag = plan_ITA #25
+				set_country_flag = plan_SPR #20
+				set_country_flag = intel_115
+			}
+		}
+	}
+}
