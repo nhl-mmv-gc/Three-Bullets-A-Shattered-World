@@ -168,7 +168,7 @@ if = {
 		freedom_level = 0.4
 	}
 	set_autonomy = {
-		target = SOM
+		target = IEA
 		autonomous_state = autonomy_colony
 		freedom_level = 0.4
 	}
@@ -183,7 +183,7 @@ if = {
 		puppet = LEB
 		puppet = PAL
 		puppet = HEJ
-		puppet = SOM
+		puppet = IEA
 		puppet = YEM
 	}
 }
@@ -195,7 +195,7 @@ add_to_faction = LEB
 add_to_faction = PAL
 add_to_faction = YEM
 add_to_faction = LBA
-add_to_faction = SOM
+add_to_faction = IEA
 add_to_faction = HEJ
 
 give_guarantee = SLV
