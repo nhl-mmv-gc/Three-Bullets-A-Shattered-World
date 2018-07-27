@@ -138,56 +138,6 @@ set_technology = {
 
 set_convoys = 200
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = LBA
-		autonomous_state = autonomy_colony
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = SYR
-		autonomous_state = autonomy_colony
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = LEB
-		autonomous_state = autonomy_colony
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = PAL
-		autonomous_state = autonomy_colony
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = HEJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = IEA
-		autonomous_state = autonomy_colony
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = YEM
-		autonomous_state = autonomy_colony
-		freedom_level = 0.4
-	}
-	else = {
-		puppet = LBA
-		puppet = SYR
-		puppet = LEB
-		puppet = PAL
-		puppet = HEJ
-		puppet = IEA
-		puppet = YEM
-	}
-}
-
 create_faction = "Roman League"
 
 add_to_faction = SYR
