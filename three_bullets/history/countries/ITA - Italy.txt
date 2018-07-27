@@ -163,31 +163,23 @@ set_politics = {
 		}
 		
 		socialism = {
-			popularity = 7
-		}
-		
-		progressivism = {
 			popularity = 8
 		}
 		
 		liberalism = {
-			popularity = 31
+			popularity = 34
 		}
 		
 		conservatism = {
-			popularity = 37
+			popularity = 43
 		}
 		
 		reactionism = {
 			popularity = 11
 		}
 		
-		nationalism = {
-			popularity = 4
-		}
-		
 		fascism = {
-			popularity = 1
+			popularity = 3
 		}
 	}
 	
