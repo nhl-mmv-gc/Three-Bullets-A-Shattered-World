@@ -5,11 +5,7 @@ ideologies = {
 		color = { 150 10 10 } # Originally 127 0 0
 		
 		dynamic_faction_names = { 
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
+			"Communist Bloc"
 		}
 		
 		rules = { 
@@ -39,11 +35,7 @@ ideologies = {
 		color = { 255 0 0 }
 		
 		dynamic_faction_names = { 
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
+			"Socialist Bloc"
 		}
 		
 		rules = { 
@@ -73,11 +65,7 @@ ideologies = {
 		color = { 255 255 0 } # Originally 255 216 0
 		
 		dynamic_faction_names = { 
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
+			"Liberal Bloc"
 		}
 		
 		rules = { 
@@ -106,11 +94,7 @@ ideologies = {
 		color = { 10 10 250 } # Originally 0 38 255
 		
 		dynamic_faction_names = { 
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
+			"Conservative Bloc"
 		}
 		
 		rules = { 
@@ -139,11 +123,7 @@ ideologies = {
 		color = { 30 30 100 } # Originally 42 0 158
 		
 		dynamic_faction_names = { 
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
+			"Reactionary Bloc"
 		}
 		
 		rules = { 
@@ -172,11 +152,7 @@ ideologies = {
 		color = { 127 51 0 } # Originally 127 51 0
 		
 		dynamic_faction_names = { 
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
+			"Leviathist Bloc"
 		}
 		
 		rules = { 
