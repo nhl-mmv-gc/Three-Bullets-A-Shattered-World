@@ -22,8 +22,10 @@
  EGY_conservatism_DEF:0 "the Kingdom of Egypt"
  EGY_ADJ:0 "Egyptian"
  
- ETH_reactionism:0 "Kingdom of Ethiopia"
- ETH_reactionism_DEF:0 "the Kingdom of Ethiopia"
+ ETH_reactionism:0 "Ethiopian Empire"
+ ETH_reactionism_DEF:0 "Ethiopian Empire"
+ ETH_fascism:0 "Solomonic Empire"
+ ETH_fascism_DEF:0 "Solomonic Empire"
  ETH_ADJ:0 "Ethiopian"
  
  LBA_conservatism:0 "State of Libya"
@@ -326,8 +328,8 @@
  BUL_reactionism_DEF:0 "the Tsardom of Bulgaria"
  BUL_ADJ:0 "Bulgarian"
  
- CRI_reactionism:0 "Tatar Republic"
- CRI_reactionism_DEF:0 "the Tatar Republic"
+ CRI_reactionism:0 "Crimean Republic"
+ CRI_reactionism_DEF:0 "the Crimean Republic"
  CRI_ADJ:0 "Tatar"
  
  CRO_conservatism:0 "Kingdom of Croatia-Slovenia"
@@ -343,7 +345,7 @@
  DEN_ADJ:0 "Danish"
  
  ENG_fascism:0 "Greater Britain"
- ENG_fascism_DEF:0 "the Greater"
+ ENG_fascism_DEF:0 "Greater Britain"
  ENG_ADJ:0 "British"
  
  FIN_conservatism:0 "Kingdom of Finland"
