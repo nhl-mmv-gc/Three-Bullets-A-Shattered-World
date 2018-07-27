@@ -156,6 +156,8 @@
  
  AFG_reactionism:0 "Kindgom of Afghanistan"
  AFG_reactionism_DEF:0 "the Kingdom of Afghanistan"
+ AFG_fascism:0 "Ghazi State"
+ AFG_fascism_DEF:0 "the Ghazi State"
  AFG_ADJ:0 "Afghani"
  
  ASY_conservatism:0 "Kingdom of Assyria"
