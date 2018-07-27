@@ -183,6 +183,7 @@ if = {
 		puppet = LEB
 		puppet = PAL
 		puppet = HEJ
+		puppet = IEA
 		puppet = YEM
 	}
 }
