@@ -75,3 +75,10 @@
  POL_conservatism_party:0 "Popular National Union"
  POL_reactionism_party:0 "National Democracy"
  POL_fascism_party:0 "Bloc For National Unity"
+ 
+ ETH_communism_ideology_desc:0 "Ethiopian Worker's Party"
+ ETH_socialism_ideology_desc:0 "Ethiopian Socialist Party"
+ ETH_liberalism_ideology_desc:0 "Unity and Democracy"
+ ETH_conservatism_ideology_desc:0 "Democratic Party"
+ ETH_reactionism_ideology_desc:0 "Solomonic Dynasty"
+ ETH_fascism_ideology_desc:0 "Heirs of Solomon"
