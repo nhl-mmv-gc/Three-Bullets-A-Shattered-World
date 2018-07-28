@@ -82,3 +82,10 @@
  ETH_conservatism_ideology_desc:0 "Democratic Party"
  ETH_reactionism_ideology_desc:0 "Solomonic Dynasty"
  ETH_fascism_ideology_desc:0 "Heirs of Solomon"
+ 
+ AFG_communism:0 "Communist Party of Afghanistan"
+ AFG_socialism:0 "Social-Democratic Labour Party"
+ AFG_liberalism:0 "Reformists"
+ AFG_conservatism:0 "Tribal Council"
+ AFG_reactionism:0 "Pashtun Nationalists"
+ AFG_fascism:0 "Ghazi Order"
