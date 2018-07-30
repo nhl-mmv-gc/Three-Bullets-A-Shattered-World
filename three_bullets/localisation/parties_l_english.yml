@@ -92,6 +92,13 @@
  POL_reactionism_party:0 "National Democracy"
  POL_fascism_party:0 "Bloc For National Unity"
  
+ SWE_communism_party:0 "Communist Party of Sweden"
+ SWE_socialism_party:0 "Swedish Social Democratic Party"
+ SWE_liberalism_party:0 "Moderate Party"
+ SWE_conservatism_party:0 "Christian Democrats"
+ SWE_reactionism_party:0 "National League of Sweden"
+ SWE_fascism_party:0 "Order of Swedish Leviathists"
+ 
  SWI_communism_party:0 "Communist Party of Switzerland"
  SWI_socialism_party:0 "Swiss Socialist Party"
  SWI_liberalism_party:0 "Free Democratic Party"
