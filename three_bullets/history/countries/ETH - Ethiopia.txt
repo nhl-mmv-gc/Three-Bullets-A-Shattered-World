@@ -49,12 +49,12 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		communism = { popularity = 5 }
-		socialism = { popularity = 5 }
-		liberalism = { popularity = 5 }
-		conservatism = { popularity = 5 }
-		reactionism = { popularity = 75 }
-		fascism = { popularity = 5 }
+		communism = { popularity = 8 }
+		socialism = { popularity = 12 }
+		liberalism = { popularity = 11 }
+		conservatism = { popularity = 12 }
+		reactionism = { popularity = 50 }
+		fascism = { popularity = 7 }
 	}
 	
 	ruling_party = reactionism
