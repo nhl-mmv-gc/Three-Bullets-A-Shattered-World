@@ -71,22 +71,26 @@ set_politics = {
 
 	parties = {
 		communism = {
-			popularity = 5
+			popularity = 12
 		}
 		socialism = {
-			popularity = 5
+			popularity = 14
 		}
+		
+		# See that Liberalism + Conservatism = 50%? Maybe turn this into a lore point... Current regime sits on the pin
+		of a needle.
+		
 		liberalism = {
-			popularity = 75
+			popularity = 27
 		}
 		conservatism = {
-			popularity = 5
+			popularity = 23
 		}
 		reactionism = {
-			popularity = 5
+			popularity = 17
 		}
 		fascism = {
-			popularity = 5
+			popularity = 6
 		}
 	}
 	
