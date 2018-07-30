@@ -34,6 +34,15 @@
  reactionism_ideology_desc:0 ""
  fascism_ideology_desc:0 ""
  
+ ##### KEEP TAGS IN ALPHABETICAL ORDER #####
+ 
+ AFG_communism_party:0 "Communist Party of Afghanistan"
+ AFG_socialism_party:0 "Social-Democratic Labour Party"
+ AFG_liberalism_party:0 "Reformists"
+ AFG_conservatism_party:0 "Tribal Council"
+ AFG_reactionism_party:0 "Pashtun Nationalists"
+ AFG_fascism_party:0 "Ghazi Order"
+ 
  CAN_communism_party:0 "Communist Party of Canada"
  CAN_socialism_party:0 "Co-operative Commonwealth Federation"
  CAN_liberalism_party:0 "Liberal Party of Canada"
@@ -48,12 +57,26 @@
  ENG_reactionism_party:0 ""
  ENG_fascism_party:0 "British Union of Leviathists"
  
+ ETH_communism_party:0 "Ethiopian Worker's Party"
+ ETH_socialism_party:0 "Ethiopian Socialist Party"
+ ETH_liberalism_party:0 "Unity and Democracy"
+ ETH_conservatism_party:0 "Democratic Party"
+ ETH_reactionism_party:0 "Solomonic Dynasty"
+ ETH_fascism_party:0 "Heirs of Solomon"
+ 
  FRA_communism_party:0 "French Communist Party"
  FRA_socialism_party:0 "Popular Front"
  FRA_liberalism_party:0 "Radical Party"
  FRA_conservatism_party:0 "Democratic Alliance"
  FRA_reactionism_party:0 "Republican Federation"
  FRA_fascism_party:0 "French National Unity"
+ 
+ GER_communism_party:0 "Communist Party"
+ GER_socialism_party:0 "Social Democratic Party"
+ GER_liberalism_party:0 "Progressive People's Party
+ GER_conservatism_party:0 "Centre Party"
+ GER_reactionism_party:0 "Fatherland Party"
+ GER_fascism_party:0 "Imperial Eagle Party"
  
  ITA_communism_party:0 "Communist Party of Italy" # Was more popular than the Communist Party of Italy at the time
  ITA_socialism_party:0 "Italian Socialist Party"
@@ -62,13 +85,6 @@
  ITA_reactionism_party:0 "Catholic Party"
  ITA_fascism_party:0 "Italian Legion"
  
- USA_communism_party:0 "Communist Party USA"
- USA_socialism_party:0 "Socialist Party of America"
- USA_liberalism_party:0 "Progressive Party"
- USA_conservatism_party:0 "Democratic-Republican Party"
- USA_reactionism_party:0 "Union Party"
- USA_fascism_party:0 "National Vanguard Party"
-
  POL_communism_party:0 "Communist Party of Poland"
  POL_socialism_party:0 "Polish Socialist Party"
  POL_liberalism_party:0 "People's Party"
@@ -76,23 +92,9 @@
  POL_reactionism_party:0 "National Democracy"
  POL_fascism_party:0 "Bloc For National Unity"
  
- ETH_communism_ideology_desc:0 "Ethiopian Worker's Party"
- ETH_socialism_ideology_desc:0 "Ethiopian Socialist Party"
- ETH_liberalism_ideology_desc:0 "Unity and Democracy"
- ETH_conservatism_ideology_desc:0 "Democratic Party"
- ETH_reactionism_ideology_desc:0 "Solomonic Dynasty"
- ETH_fascism_ideology_desc:0 "Heirs of Solomon"
- 
- AFG_communism:0 "Communist Party of Afghanistan"
- AFG_socialism:0 "Social-Democratic Labour Party"
- AFG_liberalism:0 "Reformists"
- AFG_conservatism:0 "Tribal Council"
- AFG_reactionism:0 "Pashtun Nationalists"
- AFG_fascism:0 "Ghazi Order"
- 
- GER_communism:0 "Communist Party"
- GER_socialism:0 "Social Democratic Party"
- GER_liberalism:0 "Progressive People's Party
- GER_conservatism:0 "Centre Party"
- GER_reactionism:0 "Fatherland Party"
- GER_fascism:0 "Imperial Eagle Party"
+ USA_communism_party:0 "Communist Party USA"
+ USA_socialism_party:0 "Socialist Party of America"
+ USA_liberalism_party:0 "Progressive Party"
+ USA_conservatism_party:0 "Democratic-Republican Party"
+ USA_reactionism_party:0 "Union Party"
+ USA_fascism_party:0 "National Vanguard Party"
