@@ -1,0 +1,7 @@
+##### French Intelligence Plans #####
+
+FRA_intel = {
+	allowed = {
+		original_tag = FRA
+	}
+}
