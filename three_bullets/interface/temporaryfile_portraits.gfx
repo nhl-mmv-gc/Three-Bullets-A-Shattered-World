@@ -1,0 +1,47 @@
+spriteTypes = {
+
+	#Portraits
+		#Sweden
+
+	spriteType = {
+		name = "GFX_SWE_Gustav_V"
+		textureFile = "gfx//leaders//SWE//Leader_Sweden_Gustav_V.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_Gustav_VII_Adolf"
+		textureFile = "gfx//leaders//SWE//Leader_Sweden_Gustav_VII_Adolf.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_Ernst_af_Klercker"
+		textureFile = "gfx//leaders//SWE//Leader_Sweden_Ernst_af_Klercker.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_Olof_Tornell" #Should be Törnell
+		textureFile = "gfx//leaders//SWE//Leader_Sweden_Olof_Tornell.dds"
+	}
+	spriteType = {
+		name = "GFX_SWE_Thord_Bonde
+		textureFile = "gfx//leaders//SWE//Leader_Sweden_Thord_Bonde.dds"
+	}
+
+		#Finland
+
+	spriteType = {
+		name = "GFX_FIN_Carl_Gustaf_Mannerheim
+		textureFile = "gfx//leaders//FIN//Leader_Finland_Carl_Gustaf_Mannerheim.dds"
+	}
+
+		#Crimea
+
+	spriteType = {
+		name = "GFX_CRI_Noman_Celebichan
+		textureFile = "gfx//leaders//FIN//Leader_Crimea_Noman_Celebicihan.dds"
+	}
+
+		#Afghanistan
+
+	spriteType = {
+		name = "GFX_AFG_Amanlullah_I
+		textureFile = "gfx//leaders//FIN//Leader_Afghanistan_Amanullah_I.dds"
+	}
+}
