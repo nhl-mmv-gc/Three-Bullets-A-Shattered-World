@@ -1,0 +1,81 @@
+FRA_intel = {
+
+	FRA_delete_this_later = {
+		allowed = { tag = FRA }
+		
+		complete_effect = {
+			set_country_flag = plan_BEL
+			set_country_flag = plan_SWI
+			set_country_flag = plan_ITA
+			set_country_flag = plan_GER
+			set_country_flag = plan_SPR
+			set_country_flag = plan_ROM
+			set_country_flag = plan_CAN
+			set_country_flag = plan_EGY
+			set_country_flag = plan_LIB
+			set_country_flag = plan_RUS
+			set_country_flag = plan_BAL
+			set_country_flag = plan_ENG
+		}
+	}
+
+	FRA_belgium = {
+		visible = { has_country_flag = plan_BEL }
+		available = { has_completed_focus = FRA_belgium_2 }
+	}
+	
+	FRA_switzerland = {
+		visible = { has_country_flag = plan_SWI }
+		available = { has_completed_focus = FRA_switzerland_2 }
+	}
+	
+	FRA_italy = {
+		visible = { has_country_flag = plan_ITA }
+		available = { has_completed_focus = FRA_italy_2 }
+	}
+	
+	FRA_germany = {
+		visible = { has_country_flag = plan_GER }
+		available = { has_completed_focus = FRA_germany_2 }
+	}
+	
+	FRA_spain = {
+		visible = { has_country_flag = plan_SPR }
+		available = { has_completed_focus = FRA_spain_3 }
+	}
+	
+	FRA_romania = {
+		visible = { has_country_flag = plan_ROM }
+		available = { has_completed_focus = FRA_romania_3 }
+	}
+	
+	FRA_canada = {
+		visible = { has_country_flag = plan_CAN }
+		available = { has_completed_focus = FRA_canada_3 }
+	}
+	
+	FRA_egypt = {
+		visible = { has_country_flag = plan_EGY }
+		available = { has_completed_focus = FRA_egypt_3 }
+	}
+	
+	FRA_liberia = {
+		visible = { has_country_flag = plan_LIB }
+		available = { has_completed_focus = FRA_liberia_4 }
+	}
+	
+	FRA_russia = {
+		visible = { has_country_flag = plan_RUS }
+		available = { has_completed_focus = FRA_russia_4 }
+	}
+	
+	FRA_balkans = {
+		visible = { has_country_flag = plan_BAL }
+		available = { has_completed_focus = FRA_balkans_4 }
+	}
+	
+	FRA_england = {
+		visible = { has_country_flag = plan_ENG }
+		available = { has_completed_focus = FRA_england_4 }
+	}
+}
