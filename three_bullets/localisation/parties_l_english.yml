@@ -43,6 +43,27 @@
  AFG_reactionism_party:0 "Pashtun Nationalists"
  AFG_fascism_party:0 "Ghazi Order"
  
+ ALB_communism_party:0 "Democratic Party of Labour"
+ ALB_socialism_party:0 "Labour Party"
+ ALB_liberalism_party:0 "Popular Party"
+ ALB_conservatism_party:0 "Zogu Party"
+ ALB_reactionism_party:0 "Islamic Party"
+ ALB_fascism_party:0 "Party of the Black Eagle"
+ 
+ BUL_communism_party:0 "Bulgarian Communist Party"
+ BUL_socialism_party:0 "Bulgarian Socialist Party"
+ BUL_liberalism_party:0 "Bulgarian Agrarian National Union"
+ BUL_conservatism_party:0 "People's Party"
+ BUL_reactionism_party:0 "Tsarist Party"
+ BUL_fascism_party:0 "The Lions of Bulgaria"
+ 
+ SIA_communism_party:0 "Thai Communist Party"
+ SIA_socialism_party:0 "Mueang Thai Socialist Party"
+ SIA_liberalism_party:0 "Reformist Party"
+ SIA_conservatism_party:0 "National Council"
+ SIA_reactionism_party:0 "Royalists"
+ SIA_fascism_party:0 "Order of the White Elephant"
+ 
  CAN_communism_party:0 "Communist Party of Canada"
  CAN_socialism_party:0 "Co-operative Commonwealth Federation"
  CAN_liberalism_party:0 "Liberal Party of Canada"
@@ -54,7 +75,7 @@
  ENG_socialism_party:0 "Labour Party"
  ENG_liberalism_party:0 "Liberal Party"
  ENG_conservatism_party:0 "Conservative Party"
- ENG_reactionism_party:0 ""
+ ENG_reactionism_party:0 "English Party"
  ENG_fascism_party:0 "British Union of Leviathists"
  
  ETH_communism_party:0 "Ethiopian Worker's Party"
