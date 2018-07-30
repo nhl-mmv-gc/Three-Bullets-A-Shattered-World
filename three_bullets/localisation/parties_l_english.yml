@@ -92,6 +92,13 @@
  POL_reactionism_party:0 "National Democracy"
  POL_fascism_party:0 "Bloc For National Unity"
  
+ SWI_communism_party:0 "Communist Party of Switzerland"
+ SWI_socialism_party:0 "Swiss Socialist Party"
+ SWI_liberalism_party:0 "Free Democratic Party"
+ SWI_conservatism_party:0 "Conservative People's Party"
+ SWI_reactionism_party:0 "Citizens' Party"
+ SWI_fascism_party:0 "National Front"
+ 
  USA_communism_party:0 "Communist Party USA"
  USA_socialism_party:0 "Socialist Party of America"
  USA_liberalism_party:0 "Progressive Party"
