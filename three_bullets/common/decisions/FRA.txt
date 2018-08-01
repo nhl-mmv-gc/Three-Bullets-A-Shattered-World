@@ -1,0 +1,477 @@
+FRA_intel = {
+
+	FRA_delete_this_later = {
+		allowed = { tag = FRA }
+		
+		complete_effect = {
+			set_country_flag = plan_BEL_1
+			set_country_flag = plan_SWI_1
+			set_country_flag = plan_ITA_1
+			set_country_flag = plan_GER_1
+			set_country_flag = plan_SPR_1
+			set_country_flag = plan_ROM_1
+			set_country_flag = plan_CAN_1
+			set_country_flag = plan_EGY_1
+			set_country_flag = plan_LIB_1
+			set_country_flag = plan_RUS_1
+			set_country_flag = plan_BAL_1
+			set_country_flag = plan_ENG_1
+		}
+	}
+
+	##### BELGIUM #####
+	
+	FRA_belgium_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_BEL_1 }
+		available = { has_country_flag = plan_BEL_1  date > 1936.2.1}
+		complete_effect = {
+			set_country_flag = plan_BEL_final
+		}
+	}
+	
+	FRA_belgium_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_BEL_final }
+		available = { has_country_flag = plan_BEL_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### SWITZERLAND #####
+	
+	FRA_switzerland_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_SWI_1 }
+		available = { has_country_flag = plan_SWI_1 }
+		complete_effect = {
+			set_country_flag = plan_SWI_2
+		}
+	}
+	
+	FRA_switzerland_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_SWI_2 }
+		available = { has_country_flag = plan_SWI_2 }
+		complete_effect = {
+			set_country_flag = plan_SWI_final
+		}
+	}
+	
+	FRA_switzerland_3 = {
+		cost = 75
+		visible = { has_country_flag = plan_SWI_final }
+		available = { has_country_flag = plan_SWI_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### ITALY #####
+	
+	FRA_italy_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_ITA_1 }
+		available = { has_country_flag = plan_ITA_1 }
+		complete_effect = {
+			set_country_flag = plan_ITA_2
+		}
+	}
+	
+	FRA_italy_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_ITA_2 }
+		available = { has_country_flag = plan_ITA_2 }
+		complete_effect = {
+			set_country_flag = plan_ITA_final
+		}
+	}
+	
+	FRA_italy_3 = {
+		cost = 75
+		visible = { has_country_flag = plan_ITA_final }
+		available = { has_country_flag = plan_ITA_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### GERMANY #####
+	
+	FRA_germany_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_GER_1 }
+		available = { has_country_flag = plan_GER_1 }
+		complete_effect = {
+			set_country_flag = plan_GER_2
+		}
+	}
+	
+	FRA_germany_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_GER_2 }
+		available = { has_country_flag = plan_GER_2 }
+		complete_effect = {
+			set_country_flag = plan_GER_3
+		}
+	}
+	
+	FRA_germany_3 = {
+		cost = 75
+		visible = { has_country_flag = plan_GER_3 }
+		available = { has_country_flag = plan_GER_3 }
+		complete_effect = {
+			set_country_flag = plan_GER_final
+		}
+	}
+	
+	FRA_germany_4 = {
+		cost = 75
+		visible = { has_country_flag = plan_GER_final }
+		available = { has_country_flag = plan_GER_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### SPAIN #####
+	
+	FRA_spain_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_SPR_1 }
+		available = { has_country_flag = plan_SPR_1 }
+		complete_effect = {
+			set_country_flag = plan_SPR_2
+		}
+	}
+	
+	FRA_spain_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_SPR_2 }
+		available = { has_country_flag = plan_SPR_2 }
+		complete_effect = {
+			set_country_flag = plan_SPR_final
+		}
+	}
+	
+	FRA_spain_3 = {
+		cost = 75
+		visible = { has_country_flag = plan_SPR_final }
+		available = { has_country_flag = plan_SPR_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### ROMANIA #####
+	
+	FRA_romania_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_ROM_1 }
+		available = { has_country_flag = plan_ROM_1 }
+		complete_effect = {
+			set_country_flag = plan_ROM_2
+		}
+	}
+	
+	FRA_romania_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_ROM_2 }
+		available = { has_country_flag = plan_ROM_2 }
+		complete_effect = {
+			set_country_flag = plan_ROM_3
+		}
+	}
+	
+	FRA_romania_3 = {
+		cost = 75
+		visible = { has_country_flag = plan_ROM_3 }
+		available = { has_country_flag = plan_ROM_3 }
+		complete_effect = {
+			set_country_flag = plan_ROM_final
+		}
+	}
+	
+	FRA_romania_4 = {
+		cost = 75
+		visible = { has_country_flag = plan_ROM_final }
+		available = { has_country_flag = plan_ROM_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### CANADA #####
+	
+	FRA_canada_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_CAN_1 }
+		available = { has_country_flag = plan_CAN_1 }
+		complete_effect = {
+			set_country_flag = plan_CAN_2
+		}
+	}
+	
+	FRA_canada_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_CAN_2 }
+		available = { has_country_flag = plan_CAN_2 }
+		complete_effect = {
+			set_country_flag = plan_CAN_3
+		}
+	}
+	
+	FRA_canada_3 = {
+		cost = 75
+		visible = { has_country_flag = plan_CAN_3 }
+		available = { has_country_flag = plan_CAN_3 }
+		complete_effect = {
+			set_country_flag = plan_CAN_final
+		}
+	}
+	
+	FRA_canada_4 = {
+		cost = 75
+		visible = { has_country_flag = plan_CAN_final }
+		available = { has_country_flag = plan_CAN_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### EGYPT #####
+	
+	FRA_egypt_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_EGY_1 }
+		available = { has_country_flag = plan_EGY_1 }
+		complete_effect = {
+			set_country_flag = plan_EGY_2
+		}
+	}
+	
+	FRA_egypt_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_EGY_2 }
+		available = { has_country_flag = plan_EGY_2 }
+		complete_effect = {
+			set_country_flag = plan_EGY_3
+		}
+	}
+	
+	FRA_egypt_3 = {
+		cost = 75
+		visible = { has_country_flag = plan_EGY_3 }
+		available = { has_country_flag = plan_EGY_3 }
+		complete_effect = {
+			set_country_flag = plan_EGY_4
+		}
+	}
+	
+	FRA_egypt_4 = {
+		cost = 75
+		visible = { has_country_flag = plan_EGY_4 }
+		available = { has_country_flag = plan_EGY_4 }
+		complete_effect = {
+			set_country_flag = plan_EGY_final
+		}
+	}
+	
+	FRA_egypt_5 = {
+		cost = 75
+		visible = { has_country_flag = plan_EGY_final }
+		available = { has_country_flag = plan_EGY_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### LIBERIA #####
+	
+	FRA_liberia_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_LIB_1 }
+		available = { has_country_flag = plan_LIB_1 }
+		complete_effect = {
+			set_country_flag = plan_LIB_2
+		}
+	}
+	
+	FRA_liberia_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_LIB_2 }
+		available = { has_country_flag = plan_LIB_2 }
+		complete_effect = {
+			set_country_flag = plan_LIB_3
+		}
+	}
+	
+	FRA_liberia_3 = {
+		cost = 75
+		visible = { has_country_flag = plan_LIB_3 }
+		available = { has_country_flag = plan_LIB_3 }
+		complete_effect = {
+			set_country_flag = plan_LIB_final
+		}
+	}
+	
+	FRA_liberia_4 = {
+		cost = 75
+		visible = { has_country_flag = plan_LIB_final }
+		available = { has_country_flag = plan_LIB_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### RUSSIA #####
+	
+	FRA_russia_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_RUS_1 }
+		available = { has_country_flag = plan_RUS_1 }
+		complete_effect = {
+			set_country_flag = plan_RUS_2
+		}
+	}
+	
+	FRA_russia_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_RUS_2 }
+		available = { has_country_flag = plan_RUS_2 }
+		complete_effect = {
+			set_country_flag = plan_RUS_3
+		}
+	}
+	
+	FRA_russia_3 = {
+		cost = 75
+		visible = { has_country_flag = plan_RUS_3 }
+		available = { has_country_flag = plan_RUS_3 }
+		complete_effect = {
+			set_country_flag = plan_RUS_4
+		}
+	}
+	
+	FRA_russia_4 = {
+		cost = 75
+		visible = { has_country_flag = plan_RUS_4 }
+		available = { has_country_flag = plan_RUS_4 }
+		complete_effect = {
+			set_country_flag = plan_RUS_final
+		}
+	}
+	
+	FRA_russia_5 = {
+		cost = 75
+		visible = { has_country_flag = plan_RUS_final }
+		available = { has_country_flag = plan_RUS_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### BALKANS #####
+	
+	FRA_balkans_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_BAL_1 }
+		available = { has_country_flag = plan_BAL_1 }
+		complete_effect = {
+			set_country_flag = plan_BAL_2
+		}
+	}
+	
+	FRA_balkans_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_BAL_2 }
+		available = { has_country_flag = plan_BAL_2 }
+		complete_effect = {
+			set_country_flag = plan_BAL_3
+		}
+	}
+	
+	FRA_balkans_3 = {
+		cost = 75
+		visible = { has_country_flag = plan_BAL_3 }
+		available = { has_country_flag = plan_BAL_3 }
+		complete_effect = {
+			set_country_flag = plan_BAL_4
+		}
+	}
+	
+	FRA_balkans_4 = {
+		cost = 75
+		visible = { has_country_flag = plan_BAL_4 }
+		available = { has_country_flag = plan_BAL_4 }
+		complete_effect = {
+			set_country_flag = plan_BAL_final
+		}
+	}
+	
+	FRA_balkans_5 = {
+		cost = 75
+		visible = { has_country_flag = plan_BAL_final }
+		available = { has_country_flag = plan_BAL_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### ENGLAND #####
+	
+	FRA_england_1 = {
+		cost = 75
+		visible = { has_country_flag = plan_ENG_1 }
+		available = { has_country_flag = plan_ENG_1 }
+		complete_effect = {
+			set_country_flag = plan_ENG_2
+		}
+	}
+	
+	FRA_england_2 = {
+		cost = 75
+		visible = { has_country_flag = plan_ENG_2 }
+		available = { has_country_flag = plan_ENG_2 }
+		complete_effect = {
+			set_country_flag = plan_ENG_3
+		}
+	}
+	
+	FRA_england_3 = {
+		cost = 75
+		visible = { has_country_flag = plan_ENG_3 }
+		available = { has_country_flag = plan_ENG_3 }
+		complete_effect = {
+			set_country_flag = plan_ENG_4
+		}
+	}
+	
+	FRA_england_4 = {
+		cost = 75
+		visible = { has_country_flag = plan_ENG_4 }
+		available = { has_country_flag = plan_ENG_4 }
+		complete_effect = {
+			set_country_flag = plan_ENG_5
+		}
+	}
+	
+	FRA_england_5 = {
+		cost = 75
+		visible = { has_country_flag = plan_ENG_5 }
+		available = { has_country_flag = plan_ENG_5 }
+		complete_effect = {
+			set_country_flag = plan_ENG_final
+		}
+	}
+	
+	FRA_england_6 = {
+		cost = 75
+		visible = { has_country_flag = plan_ENG_final }
+		available = { has_country_flag = plan_ENG_final }
+		complete_effect = {
+			#
+		}
+	}
+}
