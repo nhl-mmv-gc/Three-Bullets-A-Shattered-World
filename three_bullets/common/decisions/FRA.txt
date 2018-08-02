@@ -1,0 +1,477 @@
+FRA_intel = {
+
+	FRA_delete_this_later = {
+		allowed = { tag = FRA }
+		
+		complete_effect = {
+			set_country_flag = plan_BEL_1
+			set_country_flag = plan_SWI_1
+			set_country_flag = plan_ITA_1
+			set_country_flag = plan_GER_1
+			set_country_flag = plan_SPR_1
+			set_country_flag = plan_ROM_1
+			set_country_flag = plan_CAN_1
+			set_country_flag = plan_EGY_1
+			set_country_flag = plan_LIB_1
+			set_country_flag = plan_RUS_1
+			set_country_flag = plan_BAL_1
+			set_country_flag = plan_ENG_1
+		}
+	}
+
+	##### BELGIUM #####
+	
+	FRA_belgium_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_BEL_1 }
+		available = { has_country_flag = plan_BEL_1  date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_BEL_final
+		}
+	}
+	
+	FRA_belgium_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_BEL_final }
+		available = { has_country_flag = plan_BEL_final date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### SWITZERLAND #####
+	
+	FRA_switzerland_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_SWI_1 }
+		available = { has_country_flag = plan_SWI_1 date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_SWI_2
+		}
+	}
+	
+	FRA_switzerland_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_SWI_2 }
+		available = { has_country_flag = plan_SWI_2 date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_SWI_final
+		}
+	}
+	
+	FRA_switzerland_3 = { # 1938
+		cost = 75
+		visible = { has_country_flag = plan_SWI_final }
+		available = { has_country_flag = plan_SWI_final date > 1937.12.31.24 date < 1939.1.1.1 }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### ITALY #####
+	
+	FRA_italy_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_ITA_1 }
+		available = { has_country_flag = plan_ITA_1 date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_ITA_2
+		}
+	}
+	
+	FRA_italy_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_ITA_2 }
+		available = { has_country_flag = plan_ITA_2 date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_ITA_final
+		}
+	}
+	
+	FRA_italy_3 = { # 1938
+		cost = 75
+		visible = { has_country_flag = plan_ITA_final }
+		available = { has_country_flag = plan_ITA_final date > 1937.12.31.24 date < 1939.1.1.1 }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### GERMANY #####
+	
+	FRA_germany_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_GER_1 }
+		available = { has_country_flag = plan_GER_1 date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_GER_2
+		}
+	}
+	
+	FRA_germany_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_GER_2 }
+		available = { has_country_flag = plan_GER_2 date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_GER_3
+		}
+	}
+	
+	FRA_germany_3 = { # 1938
+		cost = 75
+		visible = { has_country_flag = plan_GER_3 }
+		available = { has_country_flag = plan_GER_3 date > 1937.12.31.24 date < 1939.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_GER_final
+		}
+	}
+	
+	FRA_germany_4 = { # 1939
+		cost = 75
+		visible = { has_country_flag = plan_GER_final }
+		available = { has_country_flag = plan_GER_final }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### SPAIN #####
+	
+	FRA_spain_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_SPR_1 }
+		available = { has_country_flag = plan_SPR_1 date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_SPR_2
+		}
+	}
+	
+	FRA_spain_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_SPR_2 }
+		available = { has_country_flag = plan_SPR_2 date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_SPR_final
+		}
+	}
+	
+	FRA_spain_3 = { # 1938
+		cost = 75
+		visible = { has_country_flag = plan_SPR_final }
+		available = { has_country_flag = plan_SPR_final date > 1937.12.31.24 date < 1939.1.1.1 }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### ROMANIA #####
+	
+	FRA_romania_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_ROM_1 }
+		available = { has_country_flag = plan_ROM_1 date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_ROM_2
+		}
+	}
+	
+	FRA_romania_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_ROM_2 }
+		available = { has_country_flag = plan_ROM_2 date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_ROM_3
+		}
+	}
+	
+	FRA_romania_3 = { # 1938
+		cost = 75
+		visible = { has_country_flag = plan_ROM_3 }
+		available = { has_country_flag = plan_ROM_3 date > 1937.12.31.24 date < 1939.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_ROM_final
+		}
+	}
+	
+	FRA_romania_4 = { # 1939
+		cost = 75
+		visible = { has_country_flag = plan_ROM_final }
+		available = { has_country_flag = plan_ROM_final date > 1938.12.31.24 date < 1940.1.1.1 }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### CANADA #####
+	
+	FRA_canada_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_CAN_1 }
+		available = { has_country_flag = plan_CAN_1 date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_CAN_2
+		}
+	}
+	
+	FRA_canada_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_CAN_2 }
+		available = { has_country_flag = plan_CAN_2 date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_CAN_3
+		}
+	}
+	
+	FRA_canada_3 = { # 1938
+		cost = 75
+		visible = { has_country_flag = plan_CAN_3 }
+		available = { has_country_flag = plan_CAN_3 date > 1937.12.31.24 date < 1939.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_CAN_final
+		}
+	}
+	
+	FRA_canada_4 = { # 1939
+		cost = 75
+		visible = { has_country_flag = plan_CAN_final }
+		available = { has_country_flag = plan_CAN_final date > 1938.12.31.24 date < 1940.1.1.1 }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### EGYPT #####
+	
+	FRA_egypt_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_EGY_1 }
+		available = { has_country_flag = plan_EGY_1 date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_EGY_2
+		}
+	}
+	
+	FRA_egypt_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_EGY_2 }
+		available = { has_country_flag = plan_EGY_2 date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_EGY_3
+		}
+	}
+	
+	FRA_egypt_3 = { # 1938
+		cost = 75
+		visible = { has_country_flag = plan_EGY_3 }
+		available = { has_country_flag = plan_EGY_3 date > 1937.12.31.24 date < 1939.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_EGY_4
+		}
+	}
+	
+	FRA_egypt_4 = { # 1939
+		cost = 75
+		visible = { has_country_flag = plan_EGY_4 }
+		available = { has_country_flag = plan_EGY_4 date > 1938.12.31.24 date < 1940.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_EGY_final
+		}
+	}
+	
+	FRA_egypt_5 = { # 1940
+		cost = 75
+		visible = { has_country_flag = plan_EGY_final }
+		available = { has_country_flag = plan_EGY_final date > 1939.12.31.24 date < 1941.1.1.1 }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### LIBERIA #####
+	
+	FRA_liberia_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_LIB_1 }
+		available = { has_country_flag = plan_LIB_1 date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_LIB_2
+		}
+	}
+	
+	FRA_liberia_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_LIB_2 }
+		available = { has_country_flag = plan_LIB_2 date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_LIB_3
+		}
+	}
+	
+	FRA_liberia_3 = { # 1938
+		cost = 75
+		visible = { has_country_flag = plan_LIB_3 }
+		available = { has_country_flag = plan_LIB_3 date > 1937.12.31.24 date < 1939.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_LIB_final
+		}
+	}
+	
+	FRA_liberia_4 = { # 1939
+		cost = 75
+		visible = { has_country_flag = plan_LIB_final }
+		available = { has_country_flag = plan_LIB_final date > 1938.12.31.24 date < 1940.1.1.1 }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### RUSSIA #####
+	
+	FRA_russia_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_RUS_1 }
+		available = { has_country_flag = plan_RUS_1 date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_RUS_2
+		}
+	}
+	
+	FRA_russia_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_RUS_2 }
+		available = { has_country_flag = plan_RUS_2 date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_RUS_3
+		}
+	}
+	
+	FRA_russia_3 = { # 1938
+		cost = 75
+		visible = { has_country_flag = plan_RUS_3 }
+		available = { has_country_flag = plan_RUS_3 date > 1937.12.31.24 date < 1939.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_RUS_4
+		}
+	}
+	
+	FRA_russia_4 = { # 1939
+		cost = 75
+		visible = { has_country_flag = plan_RUS_4 }
+		available = { has_country_flag = plan_RUS_4 date > 1938.12.31.24 date < 1940.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_RUS_final
+		}
+	}
+	
+	FRA_russia_5 = { # 1940
+		cost = 75
+		visible = { has_country_flag = plan_RUS_final }
+		available = { has_country_flag = plan_RUS_final date > 1939.12.31.24 date < 1941.1.1.1 }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### BALKANS #####
+	
+	FRA_balkans_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_BAL_1 }
+		available = { has_country_flag = plan_BAL_1 date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_BAL_2
+		}
+	}
+	
+	FRA_balkans_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_BAL_2 }
+		available = { has_country_flag = plan_BAL_2 date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_BAL_3
+		}
+	}
+	
+	FRA_balkans_3 = { # 1938
+		cost = 75
+		visible = { has_country_flag = plan_BAL_3 }
+		available = { has_country_flag = plan_BAL_3 date > 1937.12.31.24 date < 1939.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_BAL_4
+		}
+	}
+	
+	FRA_balkans_4 = { # 1939
+		cost = 75
+		visible = { has_country_flag = plan_BAL_4 }
+		available = { has_country_flag = plan_BAL_4 date > 1938.12.31.24 date < 1940.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_BAL_final
+		}
+	}
+	
+	FRA_balkans_5 = { # 1940
+		cost = 75
+		visible = { has_country_flag = plan_BAL_final }
+		available = { has_country_flag = plan_BAL_final date > 1939.12.31.24 date < 1941.1.1.1 }
+		complete_effect = {
+			#
+		}
+	}
+	
+	##### ENGLAND #####
+	
+	FRA_england_1 = { # 1936
+		cost = 75
+		visible = { has_country_flag = plan_ENG_1 }
+		available = { has_country_flag = plan_ENG_1 date > 1935.12.31.24 date < 1937.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_ENG_2
+		}
+	}
+	
+	FRA_england_2 = { # 1937
+		cost = 75
+		visible = { has_country_flag = plan_ENG_2 }
+		available = { has_country_flag = plan_ENG_2 date > 1936.12.31.24 date < 1938.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_ENG_3
+		}
+	}
+	
+	FRA_england_3 = { # 1938
+		cost = 75
+		visible = { has_country_flag = plan_ENG_3 }
+		available = { has_country_flag = plan_ENG_3 date > 1937.12.31.24 date < 1939.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_ENG_4
+		}
+	}
+	
+	FRA_england_4 = { # 1939
+		cost = 75
+		visible = { has_country_flag = plan_ENG_4 }
+		available = { has_country_flag = plan_ENG_4 date > 1938.12.31.24 date < 1940.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_ENG_5
+		}
+	}
+	
+	FRA_england_5 = { # 1940
+		cost = 75
+		visible = { has_country_flag = plan_ENG_5 }
+		available = { has_country_flag = plan_ENG_5 date > 1939.12.31.24 date < 1941.1.1.1 }
+		complete_effect = {
+			set_country_flag = plan_ENG_final
+		}
+	}
+	
+	FRA_england_6 = { # 1941
+		cost = 75
+		visible = { has_country_flag = plan_ENG_final }
+		available = { has_country_flag = plan_ENG_final date > 1940.12.31.24 date < 1942.1.1.1 }
+		complete_effect = {
+			#
+		}
+	}
+}
