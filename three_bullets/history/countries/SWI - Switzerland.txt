@@ -78,7 +78,7 @@ set_politics = {
 		}
 		
 		# See that Liberalism + Conservatism = 50%? Maybe turn this into a lore point... Current regime sits on the pin
-		of a needle.
+		# of a needle.
 		
 		liberalism = {
 			popularity = 27
