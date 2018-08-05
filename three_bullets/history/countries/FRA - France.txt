@@ -221,18 +221,6 @@ add_ideas = {
 
 #give_guarantee = CZE
 
-#Order matters here Daladier will start as leaders because added last
-create_country_leader = {
-	name = "Charles de Gaulle"
-	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
 ##### POTENTIAL COMMUNIST LEADERS #####
 
 create_country_leader = {
@@ -256,6 +244,42 @@ create_country_leader = {
 #	
 #	}
 #}
+
+##### POTENTIAL SOCIALIST LEADERS #####
+	name = "Paul Faure"
+	#desc = ""
+	#picture = ""
+	expire = "1965.1.1"
+	ideology = socialism_ideology
+	traits = {
+	
+	}
+}
+
+##### POTENTIAL LIBERAL LEADERS #####
+create_country_leaders = {
+	name = "Édouard Herriot"
+	#desc = ""
+	#picture = ""
+	expire = "1965.1.1"
+	ideology = liberalism_ideology
+	traits = {
+	
+	}
+}
+
+##### POTENTIAL CONSERVATIVE LEADERS #####
+
+create_country_leader = {
+	name = "Charles de Gaulle"
+	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+	picture = "Portrait_France_Charles_De_Gaulle.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
 
 ##### POTENTIAL REACTIONARY LEADERS #####
 
