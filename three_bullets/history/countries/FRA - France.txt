@@ -234,26 +234,37 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
+	name = "Marcel Cachin"
+	#desc = ""
+	#picture = ""
 	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		stout_defender
-	}
-}
-
-create_country_leader = {
-	name = "Maurice Thorez"
-	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "GFX_portrait_fra_maurice_thorez"
-	expire = "1965.1.1"
-	ideology = 	communism_ideology
+	ideology = communism_ideology
 	traits = {
 		
 	}
 }
+
+create_country_leader = {
+	name = "François Darlan"
+	#desc = ""
+	#picture = ""
+	expire = "1965.1.1"
+	ideology = reactionism_ideology
+	traits = {
+	
+	}
+}
+
+#create_country_leader = {
+#	name = "Louis Napoléon"
+#	#desc = ""
+#	#picture = ""
+#	expire = "1965.1.1"
+#	ideology = reactionism_ideology
+#	traits = {
+#	
+#	}
+#}
 
 create_country_leader = {
 	name = "Philippe Pétain"
