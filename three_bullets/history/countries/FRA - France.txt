@@ -233,6 +233,8 @@ create_country_leader = {
 	}
 }
 
+##### POTENTIAL COMMUNIST LEADERS #####
+
 create_country_leader = {
 	name = "Marcel Cachin"
 	#desc = ""
@@ -243,6 +245,19 @@ create_country_leader = {
 		
 	}
 }
+
+#create_country_leader = {
+#	name = "Ludovic-Oscar Frossard"
+#	#desc = ""
+#	#picture = ""
+#	expire = "1965.1.1"
+#	ideology = communism_ideology
+#	traits = {
+#	
+#	}
+#}
+
+##### POTENTIAL REACTIONARY LEADERS #####
 
 create_country_leader = {
 	name = "François Darlan"
@@ -266,6 +281,8 @@ create_country_leader = {
 #	}
 #}
 
+##### POTENTIAL LEVIATHIST LEADERS #####
+
 create_country_leader = {
 	name = "Philippe Pétain"
 	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
@@ -276,6 +293,8 @@ create_country_leader = {
 		
 	}
 }
+
+########################################
 
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"
