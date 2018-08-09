@@ -1,0 +1,10 @@
+﻿l_english:
+
+##### FOCUSES #####
+WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
+generic_focus:0 "National Focus"
+generic_army_effort:0 "On Matters of Army"
+generic_army_effort_desc:0 "The world as we know it is a ticking time bomb, with not much time left. To prepare, we must work on our Army."
+generic_doctrine_effort:0 "Conflict of Tactics"
+generic_doctrine_effort_desc:0 "Although in warfare there are countless strategies, there are 4 main methods of battle. A flood of bodies, defense and heavy entrenchment, bombardment to hell, and experimental armor tactics. All have their merits, but one must be picked."
+unlocks_decision:0 "Unlocks Decision: "
