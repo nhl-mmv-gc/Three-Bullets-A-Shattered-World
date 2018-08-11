@@ -50,6 +50,27 @@
  ALB_reactionism_party:0 "Islamic Party"
  ALB_fascism_party:0 "Party of the Black Eagle"
  
+ ARG_communism_party:0 "Argentine Communist Party"
+ ARG_socialism_party:0 "Socialist Party"
+ ARG_liberalism_party:0 "Radical Civic Union"
+ ARG_conservatism_party:0 "National Democratic Party"
+ ARG_reactionism_party:0 "Alliance for National Liberation"
+ ARG_fascism_party:0 "Children of the Sun"
+ 
+ ARM_communism_party:0 "Soviet Caucasusian Party"
+ ARM_socialism_party:0 "Armenian Revolutionary Federation"
+ ARM_liberalism_party:0 "Social Democrat Party"
+ ARM_conservatism_party:0 "Armenakan Party"
+ ARM_reactionism_party:0 "Royalist Party"
+ ARM_fascism_party:0 "Greater Armenian Brotherhood"
+ 
+ AUS_communism_party:0 "Communist Party of Austria"
+ AUS_socialism_party:0 "Social Democratic Party"
+ AUS_liberalism_party:0 "Liberal Party"
+ AUS_conservatism_party:0 "Christian Social Party"
+ AUS_reactionism_party:0 "Habsburg Dynasty"
+ AUS_fascism_party:0 "German Worker's Party"
+ 
  BUL_communism_party:0 "Bulgarian Communist Party"
  BUL_socialism_party:0 "Bulgarian Socialist Party"
  BUL_liberalism_party:0 "Bulgarian Agrarian National Union"
@@ -105,6 +126,13 @@
  POL_conservatism_party:0 "Popular National Union"
  POL_reactionism_party:0 "National Democracy"
  POL_fascism_party:0 "Bloc For National Unity"
+ 
+ ROM_communism_party:0 "Worker's Party of Romania"
+ ROM_socialism_party:0 "Social Democratic Party"
+ ROM_liberalism_party:0 "Liberal Party"
+ ROM_conservatism_party:0 "Conservative Party"
+ ROM_reactionism_party:0 "Nationalist Democratic Party"
+ ROM_fascism_party:0 "Sons of the Dragon"
  
  SIA_communism_party:0 "Thai Communist Party"
  SIA_socialism_party:0 "Mueang Thai Socialist Party"
