@@ -113,6 +113,13 @@
  GER_reactionism_party:0 "Fatherland Party"
  GER_fascism_party:0 "Imperial Eagle Party"
  
+ HUN_communism_party:0 "Hungarian Communist Party"
+ HUN_socialism_party:0 "Christian Socialist Party"
+ HUN_liberalism_party:0 "National Party of Work"
+ HUN_conservatism_party:0 "National Constitution Party"
+ HUN_reactionism_party:0 "Legitimist Party"
+ HUN_fascism_party:0 "National Unity Party"
+ 
  ITA_communism_party:0 "Communist Party of Italy"
  ITA_socialism_party:0 "Italian Socialist Party"
  ITA_liberalism_party:0 "Liberal Union"
@@ -127,12 +134,12 @@
  POL_reactionism_party:0 "National Democracy"
  POL_fascism_party:0 "Bloc For National Unity"
  
- ROM_communism_party:0 "Worker's Party of Romania"
+ ROM_communism_party:0 "Worker's Guard"
  ROM_socialism_party:0 "Social Democratic Party"
  ROM_liberalism_party:0 "Liberal Party"
  ROM_conservatism_party:0 "Conservative Party"
  ROM_reactionism_party:0 "Nationalist Democratic Party"
- ROM_fascism_party:0 "Sons of the Dragon"
+ ROM_fascism_party:0 "Dragon Guard"
  
  SIA_communism_party:0 "Thai Communist Party"
  SIA_socialism_party:0 "Mueang Thai Socialist Party"
