@@ -85,6 +85,13 @@
  CAN_reactionism_party:0 "Reconstruction Party of Canada"
  CAN_fascism_party:0 "National Union of Leviathists"
  
+ CZE_communism_party:0 "Czech Communist Party"
+ CZE_socialism_party:0 "Social Democracy Party"
+ CZE_liberalism_party:0 "Czech Progressive Party"
+ CZE_conservatism_party:0 "Christian-Democratic Party"
+ CZE_reactionism_party:0 "Catholic-National Conservative Party"
+ CZE_fascism_party:0 "The Lion and Eagle Party"
+ 
  ENG_communism_party:0 "Communist Party of Great Britain"
  ENG_socialism_party:0 "Labour Party"
  ENG_liberalism_party:0 "Liberal Party"
@@ -147,6 +154,13 @@
  SIA_conservatism_party:0 "National Council"
  SIA_reactionism_party:0 "Royalists"
  SIA_fascism_party:0 "Order of the White Elephant"
+ 
+ SLO_communism_party:0 "Communist Party of Slovakia"
+ SLO_socialism_party:0 "Slovak Social-Democratic Party"
+ SLO_liberalism_party:0 "Liberal Party"
+ SLO_conservatism_party:0 "National Democratic Party"
+ SLO_reactionism_party:0 "People's Party"
+ SLO_fascism_party:0 "Organization of the Great Bear"
  
  SWE_communism_party:0 "Communist Party of Sweden"
  SWE_socialism_party:0 "Swedish Social Democratic Party"
