@@ -120,6 +120,13 @@
  GER_reactionism_party:0 "Fatherland Party"
  GER_fascism_party:0 "Imperial Eagle Party"
  
+ GRE_communism_party:0 "Union of Greek Communists"
+ GRE_socialism_party:0 "Socialist Party of Greece"
+ GRE_liberalism_party:0 "Liberal Party"
+ GRE_conservatism_party:0 "National Democratic Party"
+ GRE_reactionism_party:0 "Greater Greece Party"
+ GRE_fascism_party:0 "Phoenix Party"
+ 
  HUN_communism_party:0 "Hungarian Communist Party"
  HUN_socialism_party:0 "Christian Socialist Party"
  HUN_liberalism_party:0 "National Party of Work"
