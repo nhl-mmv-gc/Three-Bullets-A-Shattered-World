@@ -71,6 +71,13 @@
  AUS_reactionism_party:0 "Habsburg Dynasty"
  AUS_fascism_party:0 "German Worker's Party"
  
+ BEL_communism_party:0 "Communist Party of Belgium"
+ BEL_socialism_party:0 "Belgian Labour Party"
+ BEL_liberalism_party:0 "Liberal Party"
+ BEL_conservatism_party:0 "Catholic Party"
+ BEL_reactionism_party:0 "Flemish Union"
+ BEL_fascism_party:0 "Leo Belgicus Party"
+ 
  BUL_communism_party:0 "Bulgarian Communist Party"
  BUL_socialism_party:0 "Bulgarian Socialist Party"
  BUL_liberalism_party:0 "Bulgarian Agrarian National Union"
