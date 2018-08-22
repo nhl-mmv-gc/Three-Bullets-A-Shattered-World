@@ -120,6 +120,13 @@
  ETH_reactionism_party:0 "Solomonic Dynasty"
  ETH_fascism_party:0 "Heirs of Solomon"
  
+ FIN_communism_party:0 "Communist Party of Finland"
+ FIN_socialism_party:0 "Worker's Party"
+ FIN_liberalism_party:0 "Social Democratic Party"
+ FIN_conservatism_party:0 "National Progressive Party"
+ FIN_reactionism_party:0 "Greater Finland Party"
+ FIN_fascism_party:0 "National Movement Party"
+ 
  FRA_communism_party:0 "French Communist Party"
  FRA_socialism_party:0 "Popular Front"
  FRA_liberalism_party:0 "Radical Party"
