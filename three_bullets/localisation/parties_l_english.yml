@@ -162,6 +162,13 @@
  POL_reactionism_party:0 "National Democracy"
  POL_fascism_party:0 "Bloc For National Unity"
  
+ POR_communism_party:0 "Portuguese Communist Party"
+ POR_socialism_party:0 "Portuguese Socialist Party"
+ POR_liberalism_party:0 "Democratic Party"
+ POR_conservatism_party:0 "Republican Union"
+ POR_reactionism_party:0 "Monarchist Party"
+ POR_fascism_party:0 "The Dragon Party"
+ 
  ROM_communism_party:0 "Worker's Guard"
  ROM_socialism_party:0 "Social Democratic Party"
  ROM_liberalism_party:0 "Liberal Party"
