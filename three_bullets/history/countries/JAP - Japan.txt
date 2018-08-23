@@ -181,25 +181,12 @@ set_convoys = 400
 if = {
 	limit = {
 		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		set_autonomy = {
-			target = MAN
-			autonomous_state = autonomy_puppet
-		}
-	}
-}
-
 
 set_politics = {
 
 	parties = {
 		communism = { 
-			popularity = 5
+			popularity = 10
 		}
 		socialism = { 
 			popularity = 5
@@ -211,14 +198,14 @@ set_politics = {
 			popularity = 5
 		}
 		reactionism = { 
-			popularity = 5
+			popularity = 50
 		}
 		fascism = { 
-			popularity = 75
+			popularity = 25
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = reactionism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -243,7 +230,7 @@ set_politics = {
 			}
 		}
 		
-		ruling_party = fascism
+		ruling_party = reactionism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -255,7 +242,7 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "Portrait_Japan_Hirohito.dds"
 	expire = "1989.1.1"
-	ideology = fascism_ideology
+	ideology = reactionism_ideology
 	traits = {
 		warrior_code
 		emperor_showa
