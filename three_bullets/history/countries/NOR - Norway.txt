@@ -101,7 +101,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = socialism
+	ruling_party = conservatism
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -136,11 +136,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Johan Nygaardsvold"
-	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
 	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
 	expire = "1965.1.1"
-	ideology = socialism_ideology
+	ideology = conservatism_ideology
 	traits = {
 		#
 	}
