@@ -178,9 +178,9 @@ create_import = {
 
 set_convoys = 400
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
+create_faction = "Co-Prosperity Sphere"
+
+add_to_faction = MAN
 
 set_politics = {
 
