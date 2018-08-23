@@ -99,10 +99,10 @@ set_politics = {
 
 	parties = {
 		communism = { 
-			popularity = 5
+			popularity = 8
 		}
 		socialism = { 
-			popularity = 5
+			popularity = 12
 		}
 		liberalism = { 
 			popularity = 5
@@ -111,14 +111,14 @@ set_politics = {
 			popularity = 5
 		}
 		reactionism = { 
-			popularity = 5
+			popularity = 60
 		}
 		fascism = { 
-			popularity = 75
+			popularity = 10
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = reactionism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
