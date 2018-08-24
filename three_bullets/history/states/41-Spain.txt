@@ -1,0 +1,37 @@
+
+state={
+	id=41
+	name="STATE_41" # Madrid
+	manpower = 1075000
+
+	state_category = city
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			air_base = 4
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		858 896 3858 3986 6914 6993 9767 9933 11820 11870 
+	}
+}
+
+#City of Madrid: ~900,000, let's say 912,000
+
+#2,269,659
+#- 912,000
+#---------
+#1,357,659
+
+#10 of the last 16 provinces are in this state, and are land similar to what Madrid was built on; likely holds most of the leftover population
+#How about... 1,075,000 of it?
+
+# 1,357,659
+#-1,075,000
+#----------
+#   282,659

@@ -1,0 +1,32 @@
+
+state={
+	id=175
+	name="STATE_175"
+	manpower = 465000
+	
+	state_category = town
+
+	history={
+		owner = SPR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 6
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		888 3891 3945 6800 6879 9757 9852 9881 11742 11863 
+	}
+}
+
+Original population: 848,903
+
+Has 10 of 18 provinces in original state
+
+Let's say then... a little over half of the population remains... so... 424452 is just over half... 465,000
+
+  848,903
+- 465,000
+---------
+  383,903
