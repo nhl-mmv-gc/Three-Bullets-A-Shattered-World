@@ -197,6 +197,13 @@
  JAP_reactionism_party:0 "Imperial Party"
  JAP_fascism_party:0 "The Rising Sun"
  
+ MEX_communism_party:0 "People's Liberation Front"
+ MEX_socialism_party:0 "Land and Liberty Party"
+ MEX_liberalism_party:0 "Federal Party"
+ MEX_conservatism_party:0 "Constitution Party"
+ MEX_reactionism_party:0 "Synarchist Party"
+ MEX_fascism_party:0 "Aztec Revivalist Society"
+ 
  POL_communism_party:0 "Communist Party of Poland"
  POL_socialism_party:0 "Polish Socialist Party"
  POL_liberalism_party:0 "People's Party"
