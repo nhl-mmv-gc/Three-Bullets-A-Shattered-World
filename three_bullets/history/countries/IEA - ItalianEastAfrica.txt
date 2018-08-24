@@ -61,6 +61,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Benito Mussolini"
+	picture = "IEABenitoMussolini.dds"
 	expire = "1965.1.1"
 	ideology = conservatism_ideology
 	traits = {
