@@ -17,6 +17,45 @@ ideas = {
 				political_power_gain = -0.05 				
 			}
 		}
+		
+		poor_economy = {
+			
+			allowed = {
+				original_tag = "IEA"
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_arms_factory_factor = -0.15
+				production_factory_start_efficiency_factor = -0.05 			
+			}
+		}
+		
+		jxs_tensions = {
+			
+			allowed = {
+				original_tag = "IEA"
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.1  			
+				defence = 0.15
+				offence = 0.05
+				political_power_gain = -0.05
+			}
+		}
 	}
 		
 	political_advisor = {
