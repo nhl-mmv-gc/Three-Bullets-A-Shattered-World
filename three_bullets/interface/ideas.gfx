@@ -1,0 +1,27 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 14		
+	}
+
+	### IEA ###
+	
+	spriteType = {
+		name = "GFX_idea_closet_socialists"
+		texturefile = "gfx/interface/ideas/closet_socialists.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_poor_economy"
+		texturefile = "gfx/interface/ideas/poor_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jxs_tensions"
+		texturefile = "gfx/interface/ideas/jxs_tensions.dds"
+	}
+
+	
+}
