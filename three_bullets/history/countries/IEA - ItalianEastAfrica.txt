@@ -53,6 +53,9 @@ set_politics = {
 
 	add_ideas = {
 	limited_conscription
+	closet_socialists
+	poor_economy
+	jxs_tensions
 
 	}
 
