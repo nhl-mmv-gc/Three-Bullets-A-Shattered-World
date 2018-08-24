@@ -78,6 +78,13 @@
  BEL_reactionism_party:0 "Flemish Union"
  BEL_fascism_party:0 "Leo Belgicus Party"
  
+ BRA_communism_party:0 "Communist Party of Brazil"
+ BRA_socialism_party:0 "Socialist Worker's Party"
+ BRA_liberalism_party:0 "Republican Party"
+ BRA_conservatism_party:0 "Christian Party"
+ BRA_reactionism_party:0 "Committee of Monarchists"
+ BRA_fascism_party:0 "Jaguar Party"
+ 
  BUL_communism_party:0 "Bulgarian Communist Party"
  BUL_socialism_party:0 "Bulgarian Socialist Party"
  BUL_liberalism_party:0 "Bulgarian Agrarian National Union"
@@ -91,6 +98,13 @@
  CAN_conservatism_party:0 "Liberal-Conservative Party of Canada"
  CAN_reactionism_party:0 "Reconstruction Party of Canada"
  CAN_fascism_party:0 "National Union of Leviathists"
+ 
+ CHI_communism_party:0 "Communist Party of China"
+ CHI_socialism_party:0 "The People's Workers Party"
+ CHI_liberalism_party:0 "Progress and Democracy"
+ CHI_conservatism_party:0 "Three Principles Party"
+ CHI_reactionism_party:0 "Nationalist Party"
+ CHI_fascism_party:0 "The Society of the Dragon"
  
  CZE_communism_party:0 "Czech Communist Party"
  CZE_socialism_party:0 "Social Democracy Party"
@@ -106,12 +120,19 @@
  DEN_reactionism_party:0 "Royalist Party"
  DEN_fascism_party:0 "Jomsvikings"
  
- ENG_communism_party:0 "Communist Party of Great Britain"
- ENG_socialism_party:0 "Labour Party"
- ENG_liberalism_party:0 "Liberal Party"
- ENG_conservatism_party:0 "Conservative Party"
- ENG_reactionism_party:0 "English Party"
- ENG_fascism_party:0 "British Union of Leviathists"
+ EGY_communism_party:0 "Communist Party of Great Britain"
+ EGY_socialism_party:0 "Labour Party"
+ EGY_liberalism_party:0 "Liberal Party"
+ EGY_conservatism_party:0 "Conservative Party"
+ EGY_reactionism_party:0 "English Party"
+ EGY_fascism_party:0 "British Union of Leviathists"
+ 
+ ENG_communism_party:0 "Communist Party of Egypt"
+ ENG_socialism_party:0 "Egyptian Socialist Front"
+ ENG_liberalism_party:0 "Liberal Republicans"
+ ENG_conservatism_party:0 "National Interest Party"
+ ENG_reactionism_party:0 "Pan-Arabic Union"
+ ENG_fascism_party:0 "Pharaoh Party"
  
  ETH_communism_party:0 "Ethiopian Worker's Party"
  ETH_socialism_party:0 "Ethiopian Socialist Party"
@@ -168,6 +189,13 @@
  ITA_conservatism_party:0 "Italian People's Party"
  ITA_reactionism_party:0 "Catholic Party"
  ITA_fascism_party:0 "Italian Legion"
+ 
+ JAP_communism_party:0 "Japanese Communist Party"
+ JAP_socialism_party:0 "People's Labour Party"
+ JAP_liberalism_party:0 "Reform Party"
+ JAP_conservatism_party:0 "Democratic Party"
+ JAP_reactionism_party:0 "Imperial Party"
+ JAP_fascism_party:0 "The Rising Sun"
  
  POL_communism_party:0 "Communist Party of Poland"
  POL_socialism_party:0 "Polish Socialist Party"
