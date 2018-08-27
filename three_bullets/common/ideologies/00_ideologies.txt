@@ -1,6 +1,9 @@
 ideologies = {
 	communism = {
-		types = { communism_ideology = { } }
+		types = {
+			communism_ideology = { }
+			anarcho_communism = { }
+		}
 		
 		color = { 150 10 10 } # Originally 127 0 0
 		
@@ -30,7 +33,10 @@ ideologies = {
 	}
 	
 	socialism = {
-		types = { socialism_ideology = { } }
+		types = {
+			socialism_ideology = { }
+			anarcho_syndicalism = { }
+		}
 		
 		color = { 255 0 0 }
 		
@@ -60,7 +66,10 @@ ideologies = {
 	}
 	
 	liberalism = {
-		types = { liberalism_ideology = { } }
+		types = {
+			liberalism_ideology = { }
+			anarcho_capitalism = { }
+		}
 		
 		color = { 255 255 0 } # Originally 255 216 0
 		
