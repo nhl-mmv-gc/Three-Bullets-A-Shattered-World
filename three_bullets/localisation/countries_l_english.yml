@@ -507,7 +507,7 @@
  NZL_ADJ:0 "New Zealander"
  
  PHI_conservatism:0 "Republic of the Philippines"
- PHI_conservatism:0 "the Republic of the Philippines"
+ PHI_conservatism_DEF:0 "the Republic of the Philippines"
  PHI_ADJ:0 "Filipino"
 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
@@ -531,4 +531,61 @@
  FACTION_NAME_NONALIGNED_3:0 "The $CONTINENT$ Alliance"
  FACTION_NAME_NONALIGNED_4:0 "Confederate $CONTINENT_ADJ$ Nations"
  FACTION_NAME_NONALIGNED_5:0 "The $LEADER_COUNTRY$ Coalition"
+ 
+ # 'Spanish Civil War' Rebel States
+ AB1_communism:0 "Barcelona Anarchists"
+ AB1_communism_DEF:0 "the Barcelona Anarchists"
+ ABI_ADJ:0 "Barcelonan"
+ 
+ AB2_communism:0 "Bilbao Anarchists"
+ AB2_communism_DEF:0 "the Bilbao Anarchists"
+ AB2_ADJ:0 "Bilbaoan"
+ 
+ AB3_socialism:0 "Burgos Anarchists"
+ AB3_socialism_DEF:0 "the Burgos Anarchists"
+ AB3_ADJ:0 "Burgosian"
+ 
+ AC1_socialism:0 "Cádiz Anarchists"
+ AC1_socialism_DEF:0 "the Cádiz Anarchists"
+ AC1_ADJ:0 "Cádizian"
+ 
+ AC2_socialism:0 "Córdoba Anarchists"
+ AC2_socialism_DEF:0 "the Córdoba Anarchists"
+ AC2_ADJ:0 "Córdoban"
+ 
+ AC3_liberalism:0 "Coruña Anarchists"
+ AC3_liberalism_DEF:0 "the Coruña Anarchists"
+ AC3_ADJ:0 "Coruñan"
+ 
+ AM1_socialism:0 "Madrid Anarchists"
+ AM1_socialism_DEF:0 "the Madrid Anarchists"
+ AM1_ADJ:0 "Madridian"
+ 
+ AM2_liberalism:0 "Málaga Anarchists"
+ AM2_liberalism_DEF:0 "the Málaga Anarchists"
+ AM2_ADJ:0 "Málagan"
+ 
+ AM3_liberalism:0 "Murcia Anarchists"
+ AM3_liberalism_DEF:0 "the Murcia Anarchists"
+ AM3_ADJ:0 "Murcian"
+ 
+ AO1_liberalism:0 "Oviedo Anarchists"
+ AO1_liberalism_DEF:0 "the Oviedo Anarchists"
+ AO1_ADJ:0 "Oviedoan"
+ 
+ AS1_socialism:0 "Sevilla Anarchists"
+ AS1_socialism_DEF:0 "the Sevilla Anarchists"
+ AS1_ADJ:0 "Sevillan"
+ 
+ AV1_socialism:0 "Valencia Anarchists"
+ AV1_socialism_DEF:0 "the Valencia Anarchists"
+ AV1_ADJ:0 "Valencian"
+ 
+ AV2_liberalism:0 "Valladolid Anarchists"
+ AV2_liberalism_DEF:0 "the Valladolid Anarchists"
+ AV2_ADJ:0 "Valladolidian"
+ 
+ AZ1_liberalism:0 "Zaragoza Anarchists"
+ AZ1_liberalism_DEF:0 "the Zaragoza Anarchists"
+ AZ1_ADJ:0 "Zaragozan"
  
