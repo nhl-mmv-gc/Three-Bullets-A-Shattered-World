@@ -1,0 +1,33 @@
+
+state={
+	id=171
+	name="STATE_171"
+	manpower = 2166585
+	
+	state_category = city
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 6
+			dockyard = 1
+			arms_factory = 1
+			air_base = 2
+			11710 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		729 3761 6734 6764 6955 9686 9689 11675 11677 11692 11710 11840 
+	}
+}
+
+#Current population of Coruna: 246,056. 128,500
+
+#2,295,085
+#- 128,500
+#---------
+#2,166,585

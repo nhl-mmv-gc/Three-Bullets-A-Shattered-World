@@ -1,0 +1,34 @@
+
+state={
+	id=172
+	name="STATE_172"
+	manpower = 1609880
+	
+	state_category = city
+	
+	resources={
+		steel=8 # was: 12
+	}
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		738 932 3735 3737 3931 3933 6756 9703 9857 11688 
+	}
+}
+
+#Current population of Bilbao: 345,141. Small city... around half, maybe a little morefor 1936
+
+#1,794,880
+#- 185,000
+#----------
+#1,609,880

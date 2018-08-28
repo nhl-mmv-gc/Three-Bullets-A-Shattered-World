@@ -1,0 +1,35 @@
+
+state={
+	id=779
+	name="STATE_779"
+	manpower = 875000
+	
+	state_category = large_city
+
+	history={
+		owner = SPR
+		victory_points = {
+			9764 15
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			9764 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		9764 
+	}
+}
+
+#Even the population on wikipedia for near the present is just less than 70,000. How about... 35,000 then, near the whole of Catalonia around 3,000,000
+
+#3,036,537
+#-  35,000
+#---------
+#3,001,537

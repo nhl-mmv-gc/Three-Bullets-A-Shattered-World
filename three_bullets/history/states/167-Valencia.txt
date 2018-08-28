@@ -1,0 +1,32 @@
+
+state={
+	id=167
+	name="STATE_167"
+	manpower = 1561294
+	
+	state_category = large_town
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 6
+			dockyard = 1
+			air_base = 3
+			962 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		962 3799 3873 4098 6817 6856 6959 9889 9896 
+	}
+}
+
+#Current population of Valencia (city): 780,834. 418,000
+
+#1,979,294
+#- 418,000
+#---------
+#1,561,294

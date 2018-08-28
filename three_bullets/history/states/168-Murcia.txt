@@ -1,0 +1,31 @@
+
+state={
+	id=168
+	name="STATE_168"
+	manpower = 782605
+	
+	state_category = town
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			10109 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = SPR
+	}
+
+	provinces={
+		832 1093 3835 4195 7111 9903 10109 11807 11884 
+	}
+}
+
+#Current population of Murcia (city): 442,573. 225,000
+
+#1,007,605
+#- 225,000
+#---------
+#  782,605
