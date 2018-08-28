@@ -21,7 +21,7 @@ country_event = {
 	title = politics.2.t
 	desc = politics.2.d
 	
-	trigger = { communism < 0.01 }
+	trigger = { socialism < 0.01 }
 	
 	mean_time_to_happen = { days = 7 }
 	
@@ -37,7 +37,7 @@ country_event = {
 	title = politics.3.t
 	desc = politics.3.d
 	
-	trigger = { communism < 0.01 }
+	trigger = { liberalism < 0.01 }
 	
 	mean_time_to_happen = { days = 7 }
 	
@@ -53,7 +53,7 @@ country_event = {
 	title = politics.4.t
 	desc = politics.4.d
 	
-	trigger = { communism < 0.01 }
+	trigger = { conservatism < 0.01 }
 	
 	mean_time_to_happen = { days = 7 }
 	
@@ -69,7 +69,7 @@ country_event = {
 	title = politics.5.t
 	desc = politics.5.d
 	
-	trigger = { communism < 0.01 }
+	trigger = { reactionism < 0.01 }
 	
 	mean_time_to_happen = { days = 7 }
 	
@@ -85,7 +85,7 @@ country_event = {
 	title = politics.6.t
 	desc = politics.6.d
 	
-	trigger = { communism < 0.01 }
+	trigger = { fascism < 0.01 }
 	
 	mean_time_to_happen = { days = 7 }
 	
