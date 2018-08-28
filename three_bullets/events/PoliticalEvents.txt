@@ -1,0 +1,97 @@
+﻿add_namespace = politics
+
+country_event = {
+	id = politics.1
+	title = politics.1.t
+	desc = politics.1.d
+	
+	trigger = { communism < 0.01 }
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = {
+		name = "Darn. We will have to suppress their revolution again."
+		add_popularity = { ideology = communism popularity = 0.01 }
+		add_political_power = -20
+	}
+}
+
+country_event = {
+	id = politics.2
+	title = politics.2.t
+	desc = politics.2.d
+	
+	trigger = { communism < 0.01 }
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = {
+		name = "Darn. We will have to suppress their trade unions again."
+		add_populaity = { ideology = socialism popularity = 0.01 }
+		add_political_power = -20
+	}
+}
+
+country_event = {
+	id = politics.3
+	title = politics.3.t
+	desc = politics.3.d
+	
+	trigger = { communism < 0.01 }
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = {
+		name = "Darn. We will have to suppress their protests again."
+		add_popularity = { ideology = liberalism popularity = 0.01 }
+		add_political_power = -20
+	}
+}
+
+country_event = {
+	id = politics.4
+	title = politics.4.t
+	desc = politics.4.d
+	
+	trigger = { communism < 0.01 }
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = {
+		name = "Darn. We will have to suppress their influence again."
+		add_popularity = { ideology = conservatism popularity = 0.01 }
+		add_political_power = -20
+	}
+}
+
+country_event = {
+	id = politics.5
+	title = politics.5.t
+	desc = politics.5.d
+	
+	trigger = { communism < 0.01 }
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = {
+		name = "Darn. We will have to suppress their voices again."
+		add_popularity = { ideology = reactionism popularity = 0.01 }
+		add_political_power = -20
+	}
+}
+
+country_event = {
+	id = politics.6
+	title = politics.6.t
+	desc = politics.6.d
+	
+	trigger = { communism < 0.01 }
+	
+	mean_time_to_happen = { days = 7 }
+	
+	option = {
+		name = "Darn. We will have to suppress their violence again."
+		add_popularity = { ideology = fascism popularity 0.01 }
+		add_political_power = -20
+	}
+}
