@@ -175,6 +175,13 @@
  HOL_conservatism_party:0 "Catholic Party"
  HOL_reactionism_party:0 "Anti-Revolutionary Party"
  HOL_fascism_party:0 "The Lions of Holland"
+  
+ HRS_communism_party:0 "Social Democratic Labour Party"
+ HRS_socialism_party:0 "Socialist Revolutionary Party"
+ HRS_liberalism_party:0 "Party of People's Freedom"
+ HRS_conservatism_party:0 "October Party"
+ HRS_reactionism_party:0 "Society of the Church"
+ HRS_fascism_party:0 "Union of the Russian People"
  
  HUN_communism_party:0 "Hungarian Communist Party"
  HUN_socialism_party:0 "Christian Socialist Party"
@@ -225,6 +232,13 @@
  ROM_reactionism_party:0 "Nationalist Democratic Party"
  ROM_fascism_party:0 "Dragon Guard"
  
+ RUS_communism_party:0 "Social Democratic Labour Party"
+ RUS_socialism_party:0 "Socialist Revolutionary Party"
+ RUS_liberalism_party:0 "Party of People's Freedom"
+ RUS_conservatism_party:0 "October Party"
+ RUS_reactionism_party:0 "Tsarist Party"
+ RUS_fascism_party:0 "Union of the Russian People"
+ 
  SER_communism_party:0 "Communist Party of Serbia"
  SER_socialism_party:0 "Serbian Socialist Party"
  SER_liberalism_party:0 "Reform Party"
@@ -245,6 +259,13 @@
  SLO_conservatism_party:0 "National Democratic Party"
  SLO_reactionism_party:0 "People's Party"
  SLO_fascism_party:0 "Organization of the Great Bear"
+ 
+ SOV_communism_party:0 "Communist Party of Russia"
+ SOV_socialism_party:0 "Socialist Revolutionary Party"
+ SOV_liberalism_party:0 "Party of People's Freedom"
+ SOV_conservatism_party:0 "October Party"
+ SOV_reactionism_party:0 "Black Hundreds"
+ SOV_fascism_party:0 "Union of the Russian People"
  
  SWE_communism_party:0 "Communist Party of Sweden"
  SWE_socialism_party:0 "Swedish Social Democratic Party"
