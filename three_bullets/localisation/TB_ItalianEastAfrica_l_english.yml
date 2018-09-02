@@ -7,3 +7,6 @@ poor_economy:0 "Poor Economy"
 poor_economy_desc:0 "Due to insurgent activity, a lack of fertile land, and general neglect from the government in Rome, our economy has suffered greatly."
 jxs_tensions:0 "JXS Tensions"
 jxs_tensions_desc:0 "The JXS is an insurgent group dedicated to the expulsion of the colonial government here, and sports broad support from natives and even some Italians. However, the JXS is split into two main factions, the extreme nationalists and the anarcho-communists, and only cooperate due to this common goal. If we can re-ignite the tension, the JXS wil burn."
+### PARTIES ###
+IEA_conservatism_party:0 "RCAO"
+IEA_conservatism_party_long:0 "Regime Coloniale dell'Africa Orientale \n§gThe Regime Coloniale, or the Colonial Regime, is the longstanding government that has overseen the colony of Italian East Africa, and has done so with moderate success. Although the government claims to have no ideology, it is very clear that they do believe in elections, but have a definite conservative bias. All is not calm in the party, however. The recent socialistic scandal involving party leader and governor Mussolini has thrown everything in disarray, and every party leader is at eachother's throats.§!"
