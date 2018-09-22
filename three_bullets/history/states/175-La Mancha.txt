@@ -20,13 +20,13 @@ state={
 	}
 }
 
-Original population: 848,903
+#Original population: 848,903
 
-Has 10 of 18 provinces in original state
+#Has 10 of 18 provinces in original state
 
-Let's say then... a little over half of the population remains... so... 424452 is just over half... 465,000
+#Let's say then... a little over half of the population remains... so... 424452 is just over half... 465,000
 
-  848,903
-- 465,000
----------
-  383,903
+#  848,903
+#- 465,000
+#---------
+#  383,903
