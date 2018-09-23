@@ -1,6 +1,6 @@
 spriteTypes = {
 
-	##### FRA FOCUS TREE ICONS #####
+	##### IEA FOCUS TREE ICONS #####
 	SpriteType = {
 		name = "GFX_goal_IEA_mussolini_declaration_shine"
 		texturefile = "gfx/interface/goals/goal_IEA_mussolini_declaration.dds"
