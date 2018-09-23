@@ -81,9 +81,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gionvanni Giuriatti"
+	name = "Giovanni Giuriatti"
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
-	picture = "IEAGionvanniGiuriatti.dds"
+	picture = "IEAGiovanniGiuriatti.dds"
 	expire = "1953.3.1"
 	ideology = reactionism_ideology
 	traits = {
