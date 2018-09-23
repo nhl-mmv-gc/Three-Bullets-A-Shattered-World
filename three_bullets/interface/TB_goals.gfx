@@ -1,0 +1,9 @@
+spriteTypes = {	
+	
+	##### IEA FOCUS TREE ICONS #####
+	SpriteType = {
+		name = "GFX_goal_IEA_mussolini_declaration"
+		texturefile = "gfx/interface/goals/goal_IEA_mussolini_declaration.dds"
+	}
+
+}
