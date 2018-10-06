@@ -1,0 +1,46 @@
+﻿capital = 780
+
+set_research_slots = 2
+
+set_politics = {
+
+	parties = {
+		communism = {
+			popularity = 5
+		}
+		socialism = {
+			popularity = 5
+		}
+		liberalism = {
+			popularity = 5
+		}
+		conservatism = {
+			popularity = 75
+		}
+		reactionism = {
+			popularity = 5
+		}
+		fascism = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_convoys = 150
+set_stability = 0.5
+
+create_country_leader = {
+	name = "Manuel Azana"
+	desc = "POLITICS_MANUEL_AZANA_DESC"
+	picture = "Portrait_Spain_Manuel_Azana.dds"
+	expire = "1965.1.1"
+	ideology = conservatism_ideology
+	traits = {
+		#
+	}
+}
