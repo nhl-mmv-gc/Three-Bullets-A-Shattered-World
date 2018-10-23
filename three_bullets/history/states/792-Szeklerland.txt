@@ -1,0 +1,23 @@
+
+state={
+	id=792
+	name="STATE_792"
+	manpower=800750
+	
+	state_category = town
+	
+	history={
+		owner = SZE
+		buildings = {
+			infrastructure = 4
+		}
+		set_demilitarized_zone = yes
+		add_core_of = SZE
+		add_core_of = HUN
+		add_core_of = ROM
+	}
+
+	provinces={
+		711 3689 9668 9670 
+	}
+}
