@@ -1,0 +1,296 @@
+focus_tree = {
+	id = spain_focus_national
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 100
+			tag = SPN
+		}
+	}
+	
+	focus = {
+		id = SPN_sanction_anarchists
+		icon = GFX_focus_generic_self_management
+		#text = #
+		
+		x = 0
+		y = 0
+		
+		cost = 0
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = sanctioned_anarchists }
+	}
+	
+	focus = {
+		id = SPN_anarchist_broadcasts
+		icon = GFX_goal_generic_propaganda
+		#text = #
+		
+		x = 0
+		y = 1
+		
+		cost = 0
+		
+		prerequisite = { focus = SPN_sanction_anarchists }
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = anarchists_had_broadcasts }
+	}
+	
+	focus = {
+		id = SPN_anarchist_parliament
+		icon = GFX_focus_generic_military_academy
+		#text = #
+		
+		x = 0
+		y = 2
+		
+		cost = 0
+		
+		prerequisite = { focus = SPN_anarchist_broadcasts }
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = anarchists_in_parliament }
+	}
+	
+	focus = {
+		id = SPN_anarchist_integration
+		icon = GFX_focus_generic_little_entente
+		#text = #
+		
+		x = 0
+		y = 3
+		
+		cost = 0
+		
+		prerequisite = { focus = SPN_anarchist_parliament }
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = anarchists_integrated }
+	}
+	
+	focus = {
+		id = SPN_anarchist_municipalities
+		#icon = #
+		#text = #
+		
+		cost = 0
+		
+		mutually_exclusive = {
+			focus = SPN_limit_anarchists
+			focus = SPN_ban_anarchists
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = municipalities_established }
+	
+	focus = {
+		id = SPN_limit_anarchists
+		icon = GFX_goal_generic_neutrality_focus
+		#text = #
+		
+		x = 2
+		y = 4
+		
+		cost = 0
+		
+		mutually_exclusive = {
+			focus = SPN_anarchist_municipalities
+			focus = SPN_ban_anarchists
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = limited_anarchists }
+	}
+		
+	focus = {
+		id = SPN_ban_anarchists
+		icon = GFX_goal_generic_political_pressure
+		#text = #
+		
+		x = 4
+		y = 4
+		
+		cost = 0
+		
+		mutually_exclusive = {
+			focus = SPN_anarchist_municipalities
+			focus = SPN_limit_anarchists
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = banned_anarchists }
+	}
+	
+	focus = {
+		id = SPN_support_basque
+		#icon = #
+		#text = #
+		
+		x = 2
+		y = 0
+		
+		cost = 0
+		
+		mutually_exclusive = {
+			focus = SPN_condemn_basque
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = basque_supported }
+	}
+	
+	focus = {
+		id = SPN_condemn_basque
+		#icon = #
+		#text = #
+		
+		x = 4
+		y = 0
+		
+		cost = 0
+		
+		mutually_exclusive = {
+			focus = SPN_support_basque
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = basque_condemned }
+	}
+	
+	focus = {
+		id = SPN_support_catalans
+		#icon = #
+		#text = #
+		
+		x = 2
+		y = 1
+		
+		cost = 0
+		
+		mutually_exclusive = {
+			focus = SPN_condemn_catalans
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = catalans_supported }
+	}
+	
+	focus = {
+		id = SPN_condemn_catalans
+		#icon = #
+		#text = #
+		
+		x = 4
+		y = 1
+		
+		cost = 0
+		
+		mutually_exclusive = {
+			focus = SPN_support_catalans
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = catalans_condemned }
+	}
+	
+	focus = {
+		id = SPN_support_galicians
+		#icon = #
+		#text = #
+		
+		x = 2
+		y = 2
+		
+		cost = 0
+		
+		mutually_exclusive = {
+			focus = SPN_condemn_galicians
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = galicians_supported }
+	}
+	
+	focus = {
+		id = SPR_condemn_galicians
+		#icon = #
+		#text = #
+		
+		x = 4
+		y = 2
+		
+		cost = 0
+		
+		mutually_exclusive = {
+			focus = SPN_support_galicians
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = galicians_condemned }
+	}
+	
+	focus = {
+		id = SPN_attack_portugal
+		
+		x = 0
+		y = 5
+		
+		mutually_exclusive = {
+			focus = SPN_neutral_portugal
+			focus = SPN_defend_portugal
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = portugal_attacked }
+	}
+	
+	focus = {
+		id = SPN_neutral_portugal
+		
+		x = 2
+		y = 5
+		
+		mutually_exclusive = {
+			focus = SPN_attack_portugal
+			focus = SPN_defend_portugal
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = portugal_neutralized }
+	}
+	
+	focus = {
+		id = SPN_defend_portugal
+		
+		x = 4
+		y = 5
+		
+		mutually_exclusive = {
+			focus = SPN_attack_portugal
+			focus = SPN_neutral_prtugal
+		}
+		
+		available = { always = no }
+		
+		bypass = { has_country_flag = portugal_defended }
+	}
+}
