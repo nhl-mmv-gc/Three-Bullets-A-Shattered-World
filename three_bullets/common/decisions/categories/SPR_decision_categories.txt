@@ -1,0 +1,14 @@
+##### Spanich Civil War Decisions #####
+##### UPLOAD FLAGS FOR ALL SPANISH CIVIL WAR FACTIONS AND SEPERATISTS IF THEY GO COMMUNIST #####
+Spanish_civil_war = {
+	visible = {
+		has_global_flag = scw
+		has_war = yes
+		tag = SPR
+		AND = {
+			NOT = { has_country_flag = anarchists_integrated }
+			NOT = { has_country_flag = limited_anarchists }
+			NOT = { has_country_flag = banned_anarchists }
+		}
+	}
+}
