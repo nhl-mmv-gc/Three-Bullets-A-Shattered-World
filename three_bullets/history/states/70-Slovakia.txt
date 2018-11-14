@@ -1,7 +1,7 @@
 state={
 	id=70
 	name="STATE_70"
-	manpower = 1230500
+	manpower = 1102500
 	
 	state_category = city
 	
@@ -11,25 +11,22 @@ state={
 
 	history={
 		owner = SLO
-		victory_points = {
-			9692 10 
-		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
+			arms_factory = 1
 			air_base = 3
 		}
 		add_core_of = SLO
-
-		1939.3.14 = {
-			owner = SLO
-			controller = SLO
-			add_core_of = SLO
-		}
 	}
 
 	provinces={
-		541 3484 3537 9539 9692 11522 11539 
+		541 3484 3537 9539 11522 11539 
 	}
 }
+
+# Let's say 128,000 popularition in Bratislava
+
+# 1,230,500
+#-  128,000
+#----------
+# 1,102,500
