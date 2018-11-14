@@ -38,10 +38,79 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "placeholder"
+	name = "Jaan Anvelt"
+	expire = "1965.1.1"
+	ideology = communism_ideology
+	traits = {
+	
+	}
+	
+	name = "August Rei"
+	expire = "1965.1.1"
+	ideology = socialism_ideology
+	traits = {
+	
+	}
+	
+	name = "Ants Piip"
+	expire = "1965.1.1"
+	ideology = socialism_ideology
+	traits = {
+	
+	}
+	name = "RKP/NCP"
+	expire = "1965.1.1"
+	ideology = liberalism_ideology
+	traits = {
+	
+	}
+	
+	name = "Jaan Poska"
+	expire = "1965.1.1"
+	ideology = liberalism_ideology
+	traits = {
+	
+	}
+	
+	name = "Axel de Vries"
 	expire = "1965.1.1"
 	ideology = conservatism_ideology
 	traits = {
-		
+	
+	}
+	
+	name = "Jaan Tõnisson"
+	expire = "1965.1.1"
+	ideology = conservatism_ideology
+	traits = {
+	
+	}
+	
+	name = "Konstantin Päts"
+	expire = "1965.1.1"
+	ideology = conservatism_ideology
+	traits = {
+	
+	}
+	
+	name = "Ādolfs Bļodnieks"
+	expire = "1965.1.1"
+	ideology = conservatism_ideology
+	traits = {
+	
+	}
+	
+	name = "Kārlis Ulmanis"
+	expire = "1965.1.1"
+	ideology = reactionism_ideology
+	traits = {
+	
+	}
+	
+	name = "Andres Larka"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+	
 	}
 }
