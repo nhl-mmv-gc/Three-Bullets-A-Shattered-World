@@ -1,6 +1,16 @@
 Spanish_civil_war = {
 	SPR_sanction_anarchists_decision = {
 		cost = 20
+		visible = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			AND = {
+				NOT = { has_country_flag = sanctioned_anarchists }
+				NOT = { has_country_flag = limited_anarchists }
+				NOT = { has_country_flag = banned_anarchists }
+			}
+		}
 		available = {
 			has_global_flag = scw
 			has_war = yes
@@ -61,7 +71,7 @@ Spanish_civil_war = {
 		}
 	}
 	
-	SPR_integrate_columns_decision = {
+	SPR_anarchist_integration_decision = {
 		cost = 20
 		visible = {
 			has_global_flag = scw
@@ -85,6 +95,16 @@ Spanish_civil_war = {
 	
 	SPR_limit_anarchists_decision = {
 		cost = 20
+		visible = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			AND = {
+				NOT = { has_country_flag = anarchists_integrated }
+				NOT = { has_country_flag = limited_anarchists }
+				NOT = { has_country_flag = banned_anarchists }
+			}
+		}
 		available = {
 			has_global_flag = scw
 			has_war = yes
@@ -102,6 +122,16 @@ Spanish_civil_war = {
 	
 	SPR_ban_anarchists_decision = {
 		cost = 20
+		visible = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			AND = {
+				NOT = { has_country_flag = anarchists_integrated }
+				NOT = { has_country_flag = limited_anarchists }
+				NOT = { has_country_flag = banned_anarchists }
+			}
+		}
 		available = {
 			has_global_flag = scw
 			has_war = yes
@@ -115,6 +145,174 @@ Spanish_civil_war = {
 		complete_effect = {
 			add_popularity = { ideology = anarchism popularity = -1 }
 			set_country_flag = banned_anarchists
+		}
+	}
+	
+	SPR_support_basque_decision = {
+		cost = 20
+		visible = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = BSQ }
+			AND = {
+				NOT = { has_country_flag = basque_supported }
+				NOT = { has_country_flag = basque_condemned }
+			}
+		}
+		available = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = BSQ }
+			AND = {
+				NOT = { has_country_flag = basque_supported }
+				NOT = { has_country_flag = basque_condemned }
+			}
+		}
+		complete_effect = {
+			add_popularity = { ideology = conservatism popularity = 0.01 }
+			set_country_flag = basque_supported
+		}
+	}
+	
+	SPR_condemn_basque_decision = {
+		cost = 20
+		visible = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = BSQ }
+			AND = {
+				NOT = { has_country_flag = basque_supported }
+				NOT = { has_country_flag = basque_condemned }
+			}
+		}
+		available = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = BSQ }
+			AND = {
+				NOT = { has_country_flag = basque_supported }
+				NOT = { has_country_flag = basque_condemned }
+			}
+		}
+		complete_effect = {
+			add_popularity = { ideology = conservatism popularity = -0.01 }
+			set_country_flag = basque_condemned
+		}
+	}
+	
+	SPR_support_catalans_decision = {
+		cost = 20
+		visible = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = CAT }
+			AND = {
+				NOT = { has_country_flag = catalans_supported }
+				NOT = { has_country_flag = catalans_condemned }
+			}
+		}
+		available = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = BSQ }
+			AND = {
+				NOT = { has_country_flag = catalans_supported }
+				NOT = { has_country_flag = catalans_condemned }
+			}
+		}
+		complete_effect = {
+			add_popularity = { ideology = conservatism popularity = 0.01 }
+			set_country_flag = catalans_supported
+		}
+	}
+	
+	SPR_condemn_catalans_decision = {
+		cost = 20
+		visible = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = BSQ }
+			AND = {
+				NOT = { has_country_flag = catalans_supported }
+				NOT = { has_country_flag = catalans_condemned }
+			}
+		}
+		available = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = BSQ }
+			AND = {
+				NOT = { has_country_flag = catalans_supported }
+				NOT = { has_country_flag = catalans_condemned }
+			}
+		}
+		complete_effect = {
+			add_popularity = { ideology = conservatism popularity = -0.01 }
+			set_country_flag = catalans_condemned
+		}
+	}
+	
+	SPR_support_galicians_decision = {
+		cost = 20
+		visible = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = CAT }
+			AND = {
+				NOT = { has_country_flag = galicians_supported }
+				NOT = { has_country_flag = galicians_condemned }
+			}
+		}
+		available = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = BSQ }
+			AND = {
+				NOT = { has_country_flag = galicians_supported }
+				NOT = { has_country_flag = galicians_condemned }
+			}
+		}
+		complete_effect = {
+			add_popularity = { ideology = conservatism popularity = 0.01 }
+			set_country_flag = galicians_supported
+		}
+	}
+	
+	SPR_condemn_galicians_decision = {
+		cost = 20
+		visible = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = BSQ }
+			AND = {
+				NOT = { has_country_flag = galicians_supported }
+				NOT = { has_country_flag = galicians_condemned }
+			}
+		}
+		available = {
+			has_global_flag = scw
+			has_war = yes
+			tag = SPR
+			NOT = { has_war_with = BSQ }
+			AND = {
+				NOT = { has_country_flag = galicians_supported }
+				NOT = { has_country_flag = galicians_condemned }
+			}
+		}
+		complete_effect = {
+			add_popularity = { ideology = conservatism popularity = -0.01 }
+			set_country_flag = galicians_condemned
 		}
 	}
 }
