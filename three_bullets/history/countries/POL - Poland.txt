@@ -135,22 +135,25 @@ set_politics = {
 
 	parties = {
 		communism = { 
-			popularity = 5
+			popularity = 3
 		}
 		socialism = { 
-			popularity = 5
+			popularity = 8
+		}
+		anarchism = {
+			popularity = 0
 		}
 		liberalism = { 
-			popularity = 5
+			popularity = 6
 		}
 		conservatism = { 
-			popularity = 5
+			popularity = 9
 		}
 		reactionism = { 
-			popularity = 5
+			popularity = 12
 		}
 		fascism = { 
-			popularity = 75
+			popularity = 62
 		}
 	}
 	

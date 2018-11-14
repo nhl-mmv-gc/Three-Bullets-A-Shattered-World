@@ -240,24 +240,27 @@ if = {
 
 set_politics = {
 
-	parties = {
+	parties = { 
 		communism = {
-			popularity = 5
+			popularity = 3
 		}
 		socialism = {
-			popularity = 5
+			popularity = 18
+		}
+		anarchism = {
+			popularity = 1
 		}
 		liberalism = {
-			popularity = 5
+			popularity = 21
 		}
 		conservatism = {
-			popularity = 75
+			popularity = 19
 		}
 		reactionism = {
-			popularity = 5
+			popularity = 20
 		}
 		fascism = {
-			popularity = 5
+			popularity = 18
 		}
 	}
 	

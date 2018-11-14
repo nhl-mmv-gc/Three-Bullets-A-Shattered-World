@@ -7,22 +7,25 @@ set_war_support = 0.6
 set_politics = {
 	parties = {
 		communism = { 
-			popularity = 5
+			popularity = 0
 		}
 		socialism = { 
-			popularity = 5
+			popularity = 0
+		}
+		anarchism = {
+			popularity = 0
 		}
 		liberalism = { 
-			popularity = 5
+			popularity = 8
 		}
 		conservatism = { 
-			popularity = 75
+			popularity = 74
 		}
 		reactionism = { 
-			popularity = 5
+			popularity = 4
 		}
 		fascism = { 
-			popularity = 5
+			popularity = 14
 		}
 	}
 	
