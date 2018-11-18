@@ -1,0 +1,7 @@
+assassinations = {
+	visible = {
+		OR = {
+			has_country_flag = HET_assassination_available
+		}
+	}
+}
