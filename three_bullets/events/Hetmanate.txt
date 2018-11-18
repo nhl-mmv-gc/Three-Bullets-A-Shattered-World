@@ -1,0 +1,235 @@
+﻿add_namespace = hetmanate
+
+country_event = { # Opening events: Part 1
+	id = hetmanate.1
+	title = hetmanate.1.t
+	desc = hetmanate.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We are yet an independent country."
+		country_event = { id = hetmanate.2 }
+		hidden_effect = {
+			country_event = { id = hetmanate.5 days = 255 }
+		}
+	}
+}
+
+country_event = { # Opening events: Part 2
+	id = hetmanate.2
+	title = hetmanate.2.t
+	desc = hetmanate.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "And O, how unflattering it made them look!"
+		country_event = { id = hetmanate.3 }
+	}
+}
+
+country_event = { # Opening events: Part 3
+	id = hetmanate.3
+	title = hetmanate.3.t
+	desc = hetmanate.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We owe the Russians..."
+		country_event = { id = hetmanate.4 }
+	}
+}
+
+country_event = { # Opening events: Part 4
+	id = hetmanate.4
+	title = hetmanate.4.t
+	desc = hetmanate.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Independent or not, we must survive."
+	}
+}
+
+country_event = { # September 13th, 1934: Candidates officially announce their running for the Presidency
+	id = hetmanate.5
+	title = hetmanate.5.t
+	desc = hetmanate.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Only one of them can win..."
+		country_event = { id = hetmanate.6 days = 28 }
+	}
+}
+
+country_event = { # October 11th, 1934: Candidates either announce their consolidation or concession
+	id = hetmanate.6
+	title = hetmanate.6.t
+	desc = hetmanate.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Perhaps the people can elect one person now."
+		country_event = { id = hetmanate.7 days = 28 }
+	}
+}
+
+country_event = { # November 8th, 1934: First round of voting, >50% of averaged votes is an election victory
+	id = hetmanate.7
+	title = hetmanate.7.t
+	desc = hetmanate.7.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Now there are only two of them."
+		trigger = { has_country_flag = second_round_win }
+		country_event = { id = hetmanate.8 days = 28 }
+	}
+	
+	option = {
+		name = "A victory already! The people have spoken."
+		trigger = { has_country_flag = first_round_win }
+		country_event = { id = hetmanate.11 days = 56 }
+	}
+}
+
+country_event = { # December 6th, 1934: Second round of voting, >50% of averaged votes is an election victory
+	id = hetmanate.8
+	title = hetmanate.8.t
+	desc = hetmanate.8.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We have our new President-elect!"
+		country_event = { id = hetmanate.11 days = 28 }
+	}
+}
+
+country_event = { # Random boost in an ideology or more
+	id = hetmanate.9
+	title = hetmanate.9.t
+	desc = hetmanate.9.d
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+		name = "Hidden event."
+		random_list = {
+			1 = { set_country_flag = communism_boost }
+			2 = { set_country_flag = socialism_boost }
+			1 = { set_country_flag = anarchism_boost }
+			4 = { set_country_flag = liberalism_boost }
+			4 = { set_country_flag = conservatism_boost }
+			2 = { set_country_flag = reactionism_boost }
+			1 = { set_country_flag = leviathism_boost }
+		}
+		set_country_flag = local_representative_elections
+		country_event = { id = hetmanate.10 days = 60 }
+	}
+}
+
+country_event = { # Random boost in an ideology
+	id = hetmanate.10
+	title = hetmanate.10.t
+	desc = {
+		trigger = { has_country_flag = local_representative_elections }
+		text = hetmanate.10.unreformed
+	}
+	desc = {
+		trigger = { has_country_flag = national_representative_elections }
+		text = hetmanate.10.reformed
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Maybe we should schedule representative elections nationally."
+		trigger = { has_country_flag = local_representative_elections }
+		if = {
+			limit = { has_country_flag = communism_boost }
+			add_popularity = { ideology = communism popularity = 0.01 }
+			clr_country_flag = communism_boost
+		}
+		if = {
+			limit = { has_country_flag = socialism_boost }
+			add_popularity = { ideology = socialism popularity = 0.01 }
+			clr_country_flag = socialism_boost
+		}
+		if = {
+			limit = { has_country_flag = anarchism_boost }
+			add_popularity = { ideology = anarchism popularity = 0.01 }
+			clr_country_flag = anarchism_boost
+		}
+		if = {
+			limit = { has_country_flag = liberalism_boost }
+			add_popularity = { ideology = liberalism popularity = 0.01 }
+			clr_country_flag = liberalism_boost
+		}
+		if = {
+			limit = { has_country_flag = conservatism_boost }
+			add_popularity = { ideology = conservatism popularity = 0.01 }
+			clr_country_flag = conservatism_boost
+		}
+		if = {
+			limit = { has_country_flag = reactionism_boost }
+			add_popularity = { ideology = reactionism popularity = 0.01 }
+			clr_country_flag = reactionism_boost
+		}
+		if = {
+			limit = { has_country_flag = leviathism_boost }
+			add_popularity = { ideology = fascism popularity = 0.01 }
+			clr_country_flag = leviathism_boost
+		}
+		country_event = { id = hetmanate.9 }
+	}
+	
+	option = {
+		name = "The election system has finally been reformed."
+		trigger = { has_country_flag = national_representative_elections }
+		if = {
+			limit = { has_country_flag = communism_boost }
+			add_popularity = { ideology = communism popularity = 0.01 }
+			clr_country_flag = communism_boost
+		}
+		if = {
+			limit = { has_country_flag = socialism_boost }
+			add_popularity = { ideology = socialism popularity = 0.01 }
+			clr_country_flag = socialism_boost
+		}
+		if = {
+			limit = { has_country_flag = anarchism_boost }
+			add_popularity = { ideology = anarchism popularity = 0.01 }
+			clr_country_flag = anarchism_boost
+		}
+		if = {
+			limit = { has_country_flag = liberalism_boost }
+			add_popularity = { ideology = liberalism popularity = 0.01 }
+			clr_country_flag = liberalism_boost
+		}
+		if = {
+			limit = { has_country_flag = conservatism_boost }
+			add_popularity = { ideology = conservatism popularity = 0.01 }
+			clr_country_flag = conservatism_boost
+		}
+		if = {
+			limit = { has_country_flag = reactionism_boost }
+			add_popularity = { ideology = reactionism popularity = 0.01 }
+			clr_country_flag = reactionism_boost
+		}
+		if = {
+			limit = { has_country_flag = leviathism_boost }
+			add_popularity = { ideology = fascism popularity = 0.01 }
+			clr_country_flag = leviathism_boost
+		}
+	}
+}
