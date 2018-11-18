@@ -64,6 +64,18 @@ country_event = { # September 13th, 1934: Candidates officially announce their r
 	option = {
 		name = "Only one of them can win..."
 		country_event = { id = hetmanate.6 days = 28 }
+		GER = { set_country_flag = HET_assassination_available }
+		HRS = { set_country_flag = HET_assassination_available }
+		SWE = { set_country_flag = HET_assassination_available }
+		set_country_flag = election_in_progress
+		set_country_flag = candidacy_in_progress
+		set_country_flag = rei_running
+		set_country_flag = piip_running
+		set_country_flag = poska_running
+		set_country_flag = vries_running
+		set_country_flag = pats_running
+		set_country_flag = tonisson_running
+		set_country_flag = ulmanis_running
 	}
 }
 
@@ -77,6 +89,7 @@ country_event = { # October 11th, 1934: Candidates either announce their consoli
 	option = {
 		name = "Perhaps the people can elect one person now."
 		country_event = { id = hetmanate.7 days = 28 }
+		clr_country_flag = candidacy_in_progress
 	}
 }
 
@@ -96,7 +109,8 @@ country_event = { # November 8th, 1934: First round of voting, >50% of averaged 
 	option = {
 		name = "A victory already! The people have spoken."
 		trigger = { has_country_flag = first_round_win }
-		country_event = { id = hetmanate.11 days = 56 }
+		country_event = { id = hetmanate.13 days = 56 }
+		clr_country_flag = election_in_progress
 	}
 }
 
@@ -109,11 +123,12 @@ country_event = { # December 6th, 1934: Second round of voting, >50% of averaged
 	
 	option = {
 		name = "We have our new President-elect!"
-		country_event = { id = hetmanate.11 days = 28 }
+		country_event = { id = hetmanate.13 days = 28 }
+		clr_country_flag = election_in_progress
 	}
 }
 
-country_event = { # Random boost in an ideology or more
+country_event = { # Random boost in an ideology, setting the flag for the event to be 60 days later
 	id = hetmanate.9
 	title = hetmanate.9.t
 	desc = hetmanate.9.d
@@ -138,7 +153,7 @@ country_event = { # Random boost in an ideology or more
 	}
 }
 
-country_event = { # Random boost in an ideology
+country_event = { # Random boost in an ideology, actual event, which has the effect applied and calls the flag setting event above
 	id = hetmanate.10
 	title = hetmanate.10.t
 	desc = {
@@ -230,6 +245,268 @@ country_event = { # Random boost in an ideology
 			limit = { has_country_flag = leviathism_boost }
 			add_popularity = { ideology = fascism popularity = 0.01 }
 			clr_country_flag = leviathism_boost
+		}
+	}
+}
+
+country_event = { # Plot boost during the (around) final week before concessions in HET election
+	id = hetmanate.11
+	title = hetmanate.11.t
+	desc = hetmanate.11.d
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = { days = 7 }
+	
+	trigger = {
+		HET = { has_country_flag = election_in_progress }
+		HET = { has_country_flag = candidacy_in_progress }
+	}
+	
+	option = {
+		name = "Planning does help to erase potential flaws."
+		set_country_flag = HET_plot_boost
+		hidden_effect = {
+			country_event = { id = hetmanate.12 days = 8 }
+		}
+	}
+}
+
+country_event = { # Plot boost being erased
+	id = hetmanate.12
+	title = hetmanate.12.t
+	desc = hetmanate.12.d
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+		name = "Hm."
+		clr_country_flag = HET_plot_boost
+	}
+}
+
+country_event = { # Installation of the President-elect
+	id = hetmanate.13
+	title = hetmanate.13.t
+	desc = hetmanate.13.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "May he ever work for Our Fatherlands, Our Freedom, and Our Joy."
+		if = {
+			limit = { has_country_flag = rei_winner }
+			
+		}
+		if = {
+			limit = { has_country_flag = piip_winner }
+			
+		}
+		if = {
+			limit = { has_country_flag = poska_winner }
+			
+		}
+		if = {
+			limit = { has_country_flag = rkp/ncp_winner }
+			
+		}
+		if = {
+			limit = { has_country_flag = vries_winner }
+			
+		}
+		if = {
+			limit = { has_country_flag = pats_winner }
+			
+		}
+		if = {
+			limit = { has_country_flag = tonisson_winner }
+			
+		}
+		if = {
+			limit = { has_country_flag = ulmanis_winner }
+			
+		}
+		if = {
+			limit = { has_country_flag = larka_winner }
+			
+		}
+	}
+}
+
+country_event = {
+	id = hetmanate.14
+	title = hetmanate.14.t
+	
+	##### DESCRIPTIONS IF VICTIM DIES #####
+	
+	desc = {
+		trigger = { has_country_flag = rei_killed }
+		text = hetmanate.14.rei_killed
+	}
+	desc = {
+		trigger = { has_country_flag = piip_killed }
+		text = hetmanate.14.piip_killed
+	}
+	desc = {
+		trigger = { has_country_flag = poska_killed }
+		text = hetmanate.14.poska_killed
+	}
+	desc = {
+		trigger = { has_country_flag = vries_killed }
+		text = hetmanate.14.vries_killed
+	}
+	desc = {
+		trigger = { has_country_flag = pats_killed }
+		text = hetmanate.14.pats_killed
+	}
+	desc = {
+		trigger = { has_country_flag = tonisson_killed }
+		text = hetmanate.14.tonisson_killed
+	}
+	desc = {
+		trigger = { has_country_flag = ulmanis_killed }
+		text = hetmanate.14.ulmanis_killed
+	}
+	
+	##### DESCRIPTIONS IF VICTIM SURVIVES #####
+	
+	desc = {
+		trigger = { has_country_flag = rei_alive }
+		text = hetmanate.14.rei_alive
+	}
+	desc = {
+		trigger = { has_country_flag = piip_alive }
+		text = hetmanate.14.piip_alive
+	}
+	desc = {
+		trigger = { has_country_flag = poska_alive }
+		text = hetmanate.14.poska_alive
+	}
+	desc = {
+		trigger = { has_country_flag = vries_alive }
+		text = hetmanate.14.vries_alive
+	}
+	desc = {
+		trigger = { has_country_flag = pats_alive }
+		text = hetmanate.14.pats_alive
+	}
+	desc = {
+		trigger = { has_country_flag = tonisson_alive }
+		text = hetmanate.14.tonisson_alive
+	}
+	desc = {
+		trigger = { has_country_flag = ulmanis_alive }
+		text = hetmanate.14.ulmanis_alive
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "We can't have this happen again!"
+		any_country = {
+			limit = { has_country_flag = HET_assassination_attempted }
+			country_event = { id = hetmanate.15 hours = 2 }
+		}
+	}
+}
+
+country_event = {
+	id = hetmanate.15
+	title = hetmanate.15.t
+	
+	##### DESCRIPTIONS IF VICTIM DIES #####
+	
+	desc = {
+		trigger = { has_country_flag = rei_killed }
+		text = hetmanate.15.rei_killed
+	}
+	desc = {
+		trigger = { has_country_flag = piip_killed }
+		text = hetmanate.15.piip_killed
+	}
+	desc = {
+		trigger = { has_country_flag = poska_killed }
+		text = hetmanate.15.poska_killed
+	}
+	desc = {
+		trigger = { has_country_flag = vries_killed }
+		text = hetmanate.15.vries_killed
+	}
+	desc = {
+		trigger = { has_country_flag = pats_killed }
+		text = hetmanate.15.pats_killed
+	}
+	desc = {
+		trigger = { has_country_flag = tonisson_killed }
+		text = hetmanate.15.tonisson_killed
+	}
+	desc = {
+		trigger = { has_country_flag = ulmanis_killed }
+		text = hetmanate.15.ulmanis_killed
+	}
+	
+	##### DESCRIPTIONS IF VICTIM SURVIVES #####
+	
+	desc = {
+		trigger = { has_country_flag = rei_alive }
+		text = hetmanate.15.rei_alive
+	}
+	desc = {
+		trigger = { has_country_flag = piip_alive }
+		text = hetmanate.15.piip_alive
+	}
+	desc = {
+		trigger = { has_country_flag = poska_alive }
+		text = hetmanate.15.poska_alive
+	}
+	desc = {
+		trigger = { has_country_flag = vries_alive }
+		text = hetmanate.15.vries_alive
+	}
+	desc = {
+		trigger = { has_country_flag = pats_alive }
+		text = hetmanate.15.pats_alive
+	}
+	desc = {
+		trigger = { has_country_flag = tonisson_alive }
+		text = hetmanate.15.tonisson_alive
+	}
+	desc = {
+		trigger = { has_country_flag = ulmanis_alive }
+		text = hetmanate.15.ulmanis_alive
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "It has been done."
+		trigger = {
+			OR = {
+				has_country_flag = rei_killed
+				has_country_flag = piip_killed
+				has_country_flag = poska_killed
+				has_country_flag = vries_killed
+				has_country_flag = pats_killed
+				has_country_flag = tonisson_killed
+				has_country_flag = ulmanis_killed
+			}
+		}
+	}
+	
+	option = {
+		name = "Damn it!"
+		trigger = {
+			OR = {
+				has_country_flag = rei_alive
+				has_country_flag = piip_alive
+				has_country_flag = poska_alive
+				has_country_flag = vries_alive
+				has_country_flag = pats_alive
+				has_country_flag = tonisson_alive
+				has_country_flag = ulmanis_alive
+			}
 		}
 	}
 }
