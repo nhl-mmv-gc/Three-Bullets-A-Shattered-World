@@ -182,15 +182,15 @@ set_politics = {
 
 	parties = {
 		communism = {
-			popularity = 58
+			popularity = 70
 		}
 		
 		socialism = {
-			popularity = 18
+			popularity = 9
 		}
 		
 		liberalism = {
-			popularity = 7
+			popularity = 4
 		}
 		
 		conservatism = {
@@ -211,6 +211,40 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
+#set_politics = {
+#
+#	parties = {
+#		communism = {
+#			popularity = 58
+#		}
+#		
+#		socialism = {
+#			popularity = 18
+#		}
+#		
+#		liberalism = {
+#			popularity = 7
+#		}
+#		
+#		conservatism = {
+#			popularity = 3
+#		}
+#		
+#		reactionism = {
+#			popularity = 12
+#		}
+#		
+#		fascism = {
+#			popularity = 2
+#		}
+#	}
+#	
+#	ruling_party = communism
+#	last_election = "1932.5.1"
+#	election_frequency = 48
+#	elections_allowed = no
+#}
 
 add_ideas = {
 	FRA_victors_of_wwi
