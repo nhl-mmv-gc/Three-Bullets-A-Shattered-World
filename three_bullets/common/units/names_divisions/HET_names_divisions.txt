@@ -1,0 +1,181 @@
+﻿HET_localized_infantry = {
+	name = "Infantry Division"
+	for_countries = { HET }
+	can_use = { always = yes }
+
+	ordered = {
+		1 = { "%dst Infantry Division" }
+		2 = { "%dnd Infantry Division" }
+		3 = { "%drd Infantry Division" }
+		4 = { "%dth Infantry Division" }
+		5 = { "%dth Infantry Division" }
+		6 = { "%dth Infantry Division" }
+		7 = { "%dth Infantry Division" }
+		8 = { "%dth Infantry Division" }
+		9 = { "%dth Infantry Division" }
+		10 = { "%dth Infantry Division" }
+		11 = { "%dth Infantry Division" }
+		12 = { "%dth Infantry Division" }
+		13 = { "%dth Infantry Division" }
+		14 = { "%dth Infantry Division" }
+		15 = { "%dth Infantry Division" }
+		16 = { "%dth Infantry Division" }
+		17 = { "%dth Infantry Division" }
+		18 = { "%dth Infantry Division" }
+		19 = { "%dth Infantry Division" }
+		20 = { "%dth Infantry Division" }
+		21 = { "%dst Infantry Division" }
+		22 = { "%dnd Infantry Division" }
+		23 = { "%drd Infantry Division" }
+		24 = { "%dth Infantry Division" }
+		25 = { "%dth Infantry Division" }
+		26 = { "%dth Infantry Division" }
+		27 = { "%dth Infantry Division" }
+		28 = { "%dth Infantry Division" }
+		29 = { "%dth Infantry Division" }
+		30 = { "%dth Infantry Division" }
+		31 = { "%dst Infantry Division" }
+		32 = { "%dnd Infantry Division" }
+		33 = { "%drd Infantry Division" }
+		34 = { "%dth Infantry Division" }
+		35 = { "%dth Infantry Division" }
+		36 = { "%dth Infantry Division" }
+		37 = { "%dth Infantry Division" }
+		38 = { "%dth Infantry Division" }
+		39 = { "%dth Infantry Division" }
+		40 = { "%dth Infantry Division" }
+	}
+}
+
+HET_mobile_infantry = {
+	name = "Mobile Division"
+	for_countries = { HET }
+	can_use = { always = yes }
+
+	ordered = {
+		1 = { "%dst Mobile Division" }
+		2 = { "%dnd Mobile Division" }
+		3 = { "%drd Mobile Division" }
+		4 = { "%dth Mobile Division" }
+		5 = { "%dth Mobile Division" }
+		6 = { "%dth Mobile Division" }
+		7 = { "%dth Mobile Division" }
+		8 = { "%dth Mobile Division" }
+		9 = { "%dth Mobile Division" }
+		10 = { "%dth Mobile Division" }
+		11 = { "%dth Mobile Division" }
+		12 = { "%dth Mobile Division" }
+		13 = { "%dth Mobile Division" }
+		14 = { "%dth Mobile Division" }
+		15 = { "%dth Mobile Division" }
+		16 = { "%dth Mobile Division" }
+		17 = { "%dth Mobile Division" }
+		18 = { "%dth Mobile Division" }
+		19 = { "%dth Mobile Division" }
+		20 = { "%dth Mobile Division" }
+		21 = { "%dst Mobile Division" }
+		22 = { "%dnd Mobile Division" }
+		23 = { "%drd Mobile Division" }
+		24 = { "%dth Mobile Division" }
+		25 = { "%dth Mobile Division" }
+		26 = { "%dth Mobile Division" }
+		27 = { "%dth Mobile Division" }
+		28 = { "%dth Mobile Division" }
+		29 = { "%dth Mobile Division" }
+		30 = { "%dth Mobile Division" }
+		31 = { "%dst Mobile Division" }
+		32 = { "%dnd Mobile Division" }
+		33 = { "%drd Mobile Division" }
+		34 = { "%dth Mobile Division" }
+		35 = { "%dth Mobile Division" }
+		36 = { "%dth Mobile Division" }
+		37 = { "%dth Mobile Division" }
+		38 = { "%dth Mobile Division" }
+		39 = { "%dth Mobile Division" }
+		40 = { "%dth Mobile Division" }
+	}
+}
+
+HET_mechanized_infantry = {
+	name = "Mechanized Divison"
+	for_countries = { HET }
+	can_use = { always = yes }
+	
+	ordered = {
+		1 = { "%dst Mechanized Division" }
+		2 = { "%dnd Mechanized Division" }
+		3 = { "%drd Mechanized Division" }
+		4 = { "%dth Mechanized Division" }
+		5 = { "%dth Mechanized Division" }
+		6 = { "%dth Mechanized Division" }
+		7 = { "%dth Mechanized Division" }
+		8 = { "%dth Mechanized Division" }
+		9 = { "%dth Mechanized Division" }
+		10 = { "%dth Mechanized Division" }
+		11 = { "%dth Mechanized Division" }
+		12 = { "%dth Mechanized Division" }
+		13 = { "%dth Mechanized Division" }
+		14 = { "%dth Mechanized Division" }
+		15 = { "%dth Mechanized Division" }
+		16 = { "%dth Mechanized Division" }
+		17 = { "%dth Mechanized Division" }
+		18 = { "%dth Mechanized Division" }
+		19 = { "%dth Mechanized Division" }
+		20 = { "%dth Mechanized Division" }
+		21 = { "%dst Mechanized Division" }
+		22 = { "%dnd Mechanized Division" }
+		23 = { "%drd Mechanized Division" }
+		24 = { "%dth Mechanized Division" }
+		25 = { "%dth Mechanized Division" }
+	}
+}
+
+HET_guard_infantry = {
+	name = "Municipal Guard"
+	for_countries = { HET }
+	can_use = { always = yes }
+	
+	ordered = {
+		1 = { "%dst Municipal Guard" }
+		2 = { "%dnd Municipal Guard" }
+		3 = { "%drd Municipal Guard" }
+		4 = { "%dth Municipal Guard" }
+		5 = { "%dth Municipal Guard" }
+		6 = { "%dth Municipal Guard" }
+		7 = { "%dth Municipal Guard" }
+		8 = { "%dth Municipal Guard" }
+		9 = { "%dth Municipal Guard" }
+		10 = { "%dth Municipal Guard" }
+		11 = { "%dth Municipal Guard" }
+		12 = { "%dth Municipal Guard" }
+		13 = { "%dth Municipal Guard" }
+		14 = { "%dth Municipal Guard" }
+		15 = { "%dth Municipal Guard" }
+		16 = { "%dth Municipal Guard" }
+		17 = { "%dth Municipal Guard" }
+		18 = { "%dth Municipal Guard" }
+		19 = { "%dth Municipal Guard" }
+		20 = { "%dth Municipal Guard" }
+		21 = { "%dst Municipal Guard" }
+		22 = { "%dndMunicipal Guard" }
+		23 = { "%drdMunicipal Guard" }
+		24 = { "%dth Municipal Guard" }
+		25 = { "%dth Municipal Guard" }
+		26 = { "%dth Municipal Guard" }
+		27 = { "%dth Municipal Guard" }
+		28 = { "%dth Municipal Guard" }
+		29 = { "%dth Municipal Guard" }
+		30 = { "%dth Municipal Guard" }
+		31 = { "%dst Municipal Guard" }
+		32 = { "%dnd Municipal Guard" }
+		33 = { "%drd Municipal Guard" }
+		34 = { "%dth Municipal Guard" }
+		35 = { "%dth Municipal Guard" }
+		36 = { "%dth Municipal Guard" }
+		37 = { "%dth Municipal Guard" }
+		38 = { "%dth Municipal Guard" }
+		39 = { "%dth Municipal Guard" }
+		40 = { "%dth Municipal Guard" }
+	}
+}
+	
