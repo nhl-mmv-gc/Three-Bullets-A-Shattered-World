@@ -865,6 +865,8 @@ on_actions = {
 	on_startup = {
 		effect = {
 			FRA = { country_event = { id = france.24 } }
+			HET = { country_event = { id = hetmanate.1 } }
+			HET = { country_event = { id = hetmanate.9 } }
 		}
 	}
 	
