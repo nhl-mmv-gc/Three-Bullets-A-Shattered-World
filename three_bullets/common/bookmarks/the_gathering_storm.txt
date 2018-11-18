@@ -1,0 +1,196 @@
+bookmarks = {
+	bookmark = {
+		name = "DECADE_OF_WAR_NAME"
+		desc = "DECADE_OF_WAR_DESC"
+		date = 1934.1.1.12
+		picture = "GFX_select_date_1934"
+		default_country = "ITA"
+		default = yes
+		
+		##### MAJOR NATIONS #####
+		
+		"FRA" = {
+			history = "FRA_decade_of_war_desc"
+			ideology = communism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"USA" = {
+			history = "USA_decade_of_war_desc"
+			ideology = liberalism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"GER" = {
+			history = "GER_decade_of_war_desc"
+			ideology = liberalism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"ITA" = {
+			history = "ITA_decade_of_war_desc"
+			ideology = conservatism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"JAP" = {
+			history = "JAP_decade_of_war_desc"
+			ideology = reactionism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"POL" = {
+			history = "POL_decade_of_war_desc"
+			ideology = fascism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"ENG" = {
+			history = "ENG_decade_of_war_desc"
+			ideology = fascism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		##### MINOR NATIONS #####
+		
+		"MEX"={
+			minor = yes
+			history = "MEX_decade_of_war_desc"
+			ideology = socialism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"SPR"={
+			minor = yes
+			history = "SPR_decade_of_war_desc"
+			ideology = liberalism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"SWE"={
+			minor = yes
+			history = "SWE_decade_of_war_desc"
+			ideology = liberalism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"CAN"={
+			minor = yes
+			history = "CAN_decade_of_war_desc"
+			ideology = conservatism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"EGY"={
+			minor = yes
+			history = "EGY_decade_of_war_desc"
+			ideology = conservatism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"CHI"={
+			minor = yes
+			history = "CHI_decade_of_war_desc"
+			ideology = reactionism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"HRS"={
+			minor = yes
+			history = "HRS_decade_of_war_desc"
+			ideology = reactionism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"HUN"={
+			minor = yes
+			history = "HUN_decade_of_war_desc"
+			ideology = fascism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
