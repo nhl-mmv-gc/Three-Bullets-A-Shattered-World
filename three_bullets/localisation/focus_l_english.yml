@@ -1,5 +1,6 @@
 ﻿l_english:
  ##### LOCALIZATION FOR FRANCE #####
+ 
  plan_BEL_1:0 "Accepted putting the Belgian Plan into effect through the opening 'Intelligence & Espionage' event line"
  plan_SWI_1:0 "Accepted putting the Swiss Plan into effect through the opening 'Intelligence & Espionage' event line"
  plan_ITA_1:0 "Accepted putting the Italian Plan into effect through the opening 'Intelligence & Espionage' event line"
@@ -330,6 +331,38 @@
  SPR_attack_portugal:0 "Attack Portugal"
  SPR_neutral_portugal:0 "Neutralize Portugal"
  SPR_defend_portugal:0 "Defend Portugal"
+ 
+ ##### LOCALIZATIONS FOR ASSASSINATIONS #####
+ 
+ assassinations:0 "Assassination Plots"
+ 
+ assassinate_rei:0 "Assassinate August Rei"
+ assassinate_rei_desc:0 "Though Rei does not enjoy large popularity even within his own party, we have received word that the Swedish are planning to use him as a means to further their economic and cultural influence in the country. We must curb any Nordic influence in the region, so as to not see a renewal of the Swedish Empire, either in militant, or economic form."
+ assassinate_rei_effect:0 "Because of his low popularity, Rei does not enjoy as great a security detail as some of the other candidates. Yet, he is the only candidate Sweden has successfully influenced for this election. His assassination should be easy, but the Swedes know the backdoors we may walk through and will be keeping a good eye on him."
+ 
+ assassinate_piip:0 "Assassinate Ants Piip"
+ assassinate_piip_desc:0 "Current leader of the Unified Social Democratic Party, Piip has the means to pull the social politic of Latvia-Estonia farther left than we would like. Not allowing him to do so, will not only allow us to successfully influence the upcoming election, but even if we lose, possibly regain any ground we did lose."
+ assassinate_piip_effect:0 "Due to being the leader his party, the security around Piip is great. We do have sufficient intel however, to maneuver covertly within Latvia-Estonia, and the Social Democrats haven't exactly received government intel yet. Not being found out will be easy. Actually assassinating him will be the difficult part.
+ 
+ assassinate_poska:0 "Assassinate Jaan Poska"
+ assassinate_poska_desc:0 "A renowned Foreign Minister in Latvia-Estonia and abroad for his work in securing aid during the Polish invasion of 1924, Poska is on the verge of becoming an esteemed figurehead for the country. However, he has expressed his policy of aligning with Germany both economically and militarily. Losing the Baltics to German influence, will only keep us in a corner."
+ assassinate_poska_effect:0 "With his national prominence, it wouldn't be difficult per se to assassinate Poska, but he is found mostly in great crowds. Furthermore, his death would likely launch a large federal investigation into the matter unless we can influence the proceedings. The German support he enjoys wouldn't help either."
+ 
+ assassinate_vries:0 "Assassinate Axel de Vries"
+ assassinate_vries_desc:0 "Vries is perhaps the least known of the most prominent candidates, but is known for his efforts in working for the German national government. Specifically, they have sent him as a candidate in the election in order to pull Baltic German voters away from other candidates. Though this may help us in some ways by eliminating their votes in the first round of the election, it could prove disastrous for the second round."
+ assassinate_vries_effect:0 "With how little is known about him, it seems Vries has taken a defensive stance during this election. Not only does he tend to stay around Baltic German communities, but his only federal campaigning is either done through surrogates or radio broadcasts. It won't be difficult to find him, but infilitrating the Baltic German community will. The chance of being found out however, is slim, as the government has largely let the Germans be."
+ 
+ assassinate_pats:0 "Assassinate Konstantin Päts"
+ assassinate_pats_desc:0 "Having worked in the Estonian government during the Russian Civil War, Päts enjoys a large following in his wing of the Farmers' Parties. However, we know that the Russians and the Federal Parliament in Latvia-Estonia are both attempting to use him to secure control over the country. To stop this seizure of power is of utmost importance."
+ assassinate_pats_effect:0 "His party being long-standing in Baltic politics since Estonian independence, there are many resources open to guarding Päts' life. However, he is likely to be holding rallies throughout the election. An attempt on his life will not be difficult to see through, but may be found out."
+ 
+ assassinate_tonisson:0 "Assassinate Jaan Tõnisson"
+ assassinate_tonisson_desc:0 "Unlike almost all other candidates, Tõnisson has argued for a Latvia-Estonia that is uninfluenced by other foreign powers. This just will not do if we are to successfully enforce our will upon the country."
+ assassinate_tonisson_effect:0 "Without leadership of a party, Tonisson has largely been left in the dark concerning security detail. He does however have a large popular support and has received many volunteers for his security at speeches and rallies."
+ 
+ assassinate_ulmanis:0 "Assassinate Kārlis Ulmanis"
+ assassinate_ulmanis_desc:0 "Ulmanis enjoys not only widespread support from his wing of the Farmer's Parties, but also the aid of Russia and the Latvian-Estonian military. Though a militarized Baltics would serve our interests better, his ties to Russia would devastate our influence should he be elected. Curbing Russian influence is our priority."
+ assassinate_ulmanis_effect:0 "Not only does Ulmanis have leadership of a party, but he is also supported by Russia and the Latvian-Estonian military. It will be both difficult, and easy to find out about us if we make an attempt to his life."
  
  #####
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
