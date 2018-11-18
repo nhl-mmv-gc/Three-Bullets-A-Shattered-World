@@ -112,6 +112,9 @@ set_politics = {
 		socialism = {
 			popularity = 75
 		}
+		anarchism = {
+			popularity = 0
+		}
 		liberalism = {
 			popularity = 5
 		}

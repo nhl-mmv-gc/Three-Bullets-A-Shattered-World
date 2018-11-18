@@ -242,29 +242,29 @@ set_politics = {
 
 	parties = { 
 		communism = {
-			popularity = 3
+			popularity = 5
 		}
 		socialism = {
-			popularity = 18
+			popularity = 14
 		}
 		anarchism = {
-			popularity = 1
+			popularity = 2
 		}
 		liberalism = {
 			popularity = 21
 		}
 		conservatism = {
-			popularity = 19
+			popularity = 15
 		}
 		reactionism = {
-			popularity = 20
+			popularity = 23
 		}
 		fascism = {
-			popularity = 18
+			popularity = 20
 		}
 	}
 	
-	ruling_party = conservatism
+	ruling_party = liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

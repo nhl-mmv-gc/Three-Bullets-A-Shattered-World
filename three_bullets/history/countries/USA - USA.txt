@@ -47,19 +47,19 @@ set_politics = {
 			popularity = 1
 		}
 		socialism = {
-			popularity = 6
+			popularity = 10
 		}
 		anarchism = {
 			popularity = 0
 		}
 		liberalism = {
-			popularity = 48
+			popularity = 50
 		}
 		conservatism = {
-			popularity = 40
+			popularity = 32
 		}
 		reactionism = {
-			popularity = 5
+			popularity = 7
 		}
 		fascism = {
 			popularity = 0

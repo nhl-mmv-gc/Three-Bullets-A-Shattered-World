@@ -1,32 +1,38 @@
 ﻿capital = 12
 
+oob = "HET_1934"
+
 set_research_slots = 2
 
 set_politics = {
 
 	parties = {
 		communism = {
-			popularity = 8
+			popularity = 2
 		}
 		
 		socialism = {
-			popularity = 8
+			popularity = 10
+		}
+		
+		anarchism = {
+			popularity = 1
 		}
 		
 		liberalism = {
-			popularity = 8
+			popularity = 25
 		}
 		
 		conservatism = {
-			popularity = 60
+			popularity = 32
 		}
 		
 		reactionism = {
-			popularity = 8
+			popularity = 27
 		}
 		
 		fascism = {
-			popularity = 8
+			popularity = 3
 		}
 	}
 	
@@ -37,77 +43,124 @@ set_politics = {
 }
 
 create_country_leader = {
-	
-	name = "Jaan Anvelt"
+	name = "Jānis Rudzutaks" # Latvian Communist Leader
 	expire = "1965.1.1"
 	ideology = communism_ideology
 	traits = {
 	
 	}
+}
+
+create_country_leader = {
+	name = "Jaan Anvelt" # Estonian Communist leader
+	expire = "1965.1.1"
+	ideology = communism_ideology
+	traits = {
 	
-	name = "August Rei"
+	}
+}
+
+create_country_leader = {
+	name = "Klāra Kalniņa" # Feminist suffragette and a social democrat
+	expire = "1965.1.1"
+	ideology = socialist_ideology
+	traits = {
+	
+	}
+}
+
+create_country_leader = {
+	name = "August Rei" # Supported by Sweden, will become socialist candidate with enough influence
 	expire = "1965.1.1"
 	ideology = socialism_ideology
 	traits = {
 	
 	}
-	
-	name = "Ants Piip"
+}
+
+create_country_leader = {
+	name = "Ants Piip" # Has popular socialist support, has policy to remain independent
 	expire = "1965.1.1"
 	ideology = socialism_ideology
 	traits = {
 	
 	}
-	name = "RKP/NCP"
+}
+
+create_country_leader = {
+	name = "RKP/NCP" # Liberal Party in Latvia-Estonia, collectivized
 	expire = "1965.1.1"
 	ideology = liberalism_ideology
 	traits = {
 	
 	}
-	
-	name = "Jaan Poska"
+}
+
+create_country_leader = {	
+	name = "Jaan Poska" # Supported by Germany, famous of negotiated with Russia to intervene
 	expire = "1965.1.1"
 	ideology = liberalism_ideology
 	traits = {
 	
 	}
-	
-	name = "Axel de Vries"
+}
+
+create_country_leader = {
+	name = "Axel de Vries" # Supported by Germany, is a Liberal Conservative
 	expire = "1965.1.1"
 	ideology = conservatism_ideology
 	traits = {
 	
 	}
-	
-	name = "Jaan Tõnisson"
+}
+
+create_country_leader = {
+	name = "Jaan Tõnisson" # Able to pull in the most popular support
 	expire = "1965.1.1"
 	ideology = conservatism_ideology
 	traits = {
 	
 	}
-	
-	name = "Konstantin Päts"
+}
+
+create_country_leader = {
+	name = "Konstantin Päts" # Supported by Russia and Latvian-Estonian Parliament
 	expire = "1965.1.1"
 	ideology = conservatism_ideology
 	traits = {
 	
 	}
-	
-	name = "Ādolfs Bļodnieks"
+}
+
+create_country_leader = {
+	name = "Ādolfs Bļodnieks" # Current President of Latvia-Estonia
 	expire = "1965.1.1"
 	ideology = conservatism_ideology
 	traits = {
 	
 	}
-	
-	name = "Kārlis Ulmanis"
+}
+
+create_country_leader = {
+	name = "Kārlis Ulmanis" # Supported by Russia and Latvian-Estonian Military
 	expire = "1965.1.1"
 	ideology = reactionism_ideology
 	traits = {
 	
 	}
+}
+
+create_country_leader = {
+	name = "Artur Sirk" # Behind-the-scenes of the Vaps Movement
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
 	
-	name = "Andres Larka"
+	}
+}
+
+create_country_leader = {
+	name = "Andres Larka" # Formal Vaps Movement figurehead
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
