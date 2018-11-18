@@ -1,0 +1,96 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Infantry Division"
+	division_names_group = HET_localized_infantry
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Mobile Division"
+	division_names_group = HET_mobile_infantry
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Division"
+	division_names_group = HET_mechanized_infantry
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Municipal Guard"
+	division_names_group = HET_guard_infantry
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Riga Municipal Guard"
+		location = 9340
+		division_template = "Municipal Guard"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Talinn Municipal Guard"
+		location = 3152
+		division_template = "Municipal Guard"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Daugavpils Municipal Guard"
+		location = 310
+		division_template = "Municipal Guard"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Tartu Municipal Guard"
+		location = 9221
+		division_template = "Municipal Guard"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9340
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.3
+	}
+}
