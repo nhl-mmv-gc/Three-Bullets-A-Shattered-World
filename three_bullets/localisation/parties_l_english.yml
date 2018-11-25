@@ -280,6 +280,13 @@
  RUS_reactionism_party:0 "Tsarist Party"
  RUS_fascism_party:0 "Union of the Russian People"
  
+ SAF_communism_party:0 "South African Communist Party"
+ SAF_socialism_party:0 "Labour Party"
+ SAF_liberalism_party:0 "Progressive Party"
+ SAF_conservatism_party:0 "Unity Party"
+ SAF_reactionism_party:0 "Afrikaner Party"
+ SAF_fascism_party:0 "National Party"
+ 
  SER_communism_party:0 "Communist Party of Serbia"
  SER_socialism_party:0 "Serbian Socialist Party"
  SER_liberalism_party:0 "Reform Party"
